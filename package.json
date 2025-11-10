@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "eta": "^4.0.1",
+    "mjml": "^4.16.1"
+  },
+  "devDependencies": {
+    "fastify": "^5.6.2"
+  }
+}
