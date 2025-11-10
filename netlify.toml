@@ -4,4 +4,4 @@ targetPort = 3001
 
 [build]
 publish = "dist"
-command = "cp -R static/* dist/"
+command = "mkdir -p dist && cp -R static/* dist/"
