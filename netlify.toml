@@ -1,3 +1,7 @@
 [dev]
 command = "node preview.js"
 targetPort = 3001
+
+[build]
+publish = "dist"
+command = "cp -R static/* dist/"
