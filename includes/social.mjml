@@ -8,18 +8,14 @@
   icon-size="26px"
   line-height="22px"
   mode="horizontal"
-  padding-bottom="0px"
-  padding-left="0px"
-  padding-right="0px"
-  padding-top="0px"
   padding="0px 0px 0px 0px"
   text-decoration="none"
 >
   <mj-social-element
-    background-color="#3B5998"
+    background-color="#333333"
     href="https://bedstuystrong.com"
     name="web-noshare"
-    src="<%= it.assets_url %>/globe.png"
+    src="<%= it.static_url %>/globe.png"
   ></mj-social-element>
   <mj-social-element
     background-color="#3B5998"
@@ -37,6 +33,6 @@
     background-color="#1DA1F2"
     href="https://bsky.app/profile/bedstuystrong.bsky.social"
     name="bluesky-noshare"
-    src="<%= it.assets_url %>/bluesky.png"
+    src="<%= it.static_url %>/bluesky.png"
   ></mj-social-element>
 </mj-social>

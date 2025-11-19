@@ -1,0 +1,295 @@
+<mjml dir="ltr" lang="en" owa="desktop" version="4.14.1">
+  <!-- Based on Mailjet's "New Year Newsletter" template -->
+  <mj-head>
+    <mj-title>this Sunday, 11/23: BSS Fall Harvest Food Distro</mj-title>
+    <mj-preview>join us at Herbert von King Park starting at 12 pm</mj-preview>
+    <mj-style inline="inline">
+      a {
+        text-decoration: underline;
+      } 
+      .text-content { 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 16px; 
+        line-height: 22px; 
+      }
+      .text-content-dark {
+        color: #515557;
+      } 
+      .text-content-light {
+        color: #ffffff;
+      }
+    </mj-style>
+    <mj-raw>
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" content="light dark" />
+      <style type="text/css">
+        :root {
+          color-scheme: light dark;
+          supported-color-schemes: light dark;
+        }
+      </style>
+    </mj-raw>
+  </mj-head>
+  <mj-body background-color="#F2F2F2">
+    <mj-section padding="0px 0px 0px 0px" text-align="center">
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="4px 10px 4px 10px"
+        >
+          <p style="text-align: center; margin: 10px 0">
+            <span
+              style="
+                line-height: 23px;
+                letter-spacing: normal;
+                font-size: 14px;
+                color: #515557;
+                text-align: left;
+                font-family: Arial;
+              "
+              >November 2025 &nbsp;|&nbsp;
+            </span>
+            <a href="<%= it.permalink %>" target="_blank">
+              <span
+                style="
+                  line-height: 23px;
+                  letter-spacing: normal;
+                  font-size: 14px;
+                  color: #1c6558;
+                  font-family: Arial;
+                "
+              >
+                <b><u>View in your browser</u></b>
+              </span>
+            </a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#0b7967"
+      background-url="header.png"
+      background-size="cover"
+      background-position="top center"
+      padding="36px 24px 36px 24px"
+      text-align="center"
+    >
+      <mj-group vertical-align="top">
+        <mj-column width="30%" vertical-align="middle">
+          <mj-image
+            align="left"
+            alt="Bed-Stuy Strong logo"
+            border="none"
+            padding="0px 0px 0px 0px"
+            src="<%= it.static_url %>/logo_white_transparent.png"
+            target="_blank"
+            title=""
+          ></mj-image>
+        </mj-column>
+        <mj-column width="70%" vertical-align="top">
+          <mj-spacer height="200px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section
+      background-color="#1c6558"
+      padding="0px 24px 0px 24px"
+      text-align="left"
+    >
+      <mj-column>
+        <mj-text
+          css-class="text-content text-content-light"
+          font-family="Helvetica, Arial, sans-serif"
+          padding="12px 12px 6px 12px"
+        >
+          <h3
+            class="text-content text-content-light"
+            style="font-size: 18px; line-height: 24px; margin-top: 10px"
+          >
+            Please join us for BSS’s Fall Harvest Food Distro! 🧡🦃🍂
+          </h3>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="16px 24px 0px 24px">
+      <mj-column width="50%">
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 12px 12px 12px"
+        >
+          <p
+            class="text-content text-content-dark"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            We will be at Herbert von King Park (Marcy/Greene Ave) on
+            <b>Sunday, November 23rd starting at 12 pm</b> with free turkeys,
+            seasonal produce, grocery essentials, and holiday fixings with the
+            Brooklyn Packers.
+          </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            We’ll also have free COVID-19 test kits + masks for both adults and
+            children. Stop by and grab what you need!
+          </p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image
+          align="center"
+          alt="Map of the southwest corner of Herbert von King Park, showing the path to enter the Fall Harvest event: into the park from the corner of Marcy & Greene, then taking a slight right until reaching the next right turn, where the event entrance will be."
+          border="2px solid #dddddd"
+          height="auto"
+          padding="10px 10px 8px 10px"
+          src="map.png"
+          title=""
+        ></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="0px 24px 24px 24px"
+      text-align="center"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 12px 0px 12px"
+        >
+          <p
+            class="text-content text-content-dark"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            We are also looking for volunteers to help support the distribution!
+            If you’d like to join us,
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe61uAIRwUhnXRoJUvK6CCEtVk-6qKvjaCDFizQLau4_WuQDg/viewform"
+              target="_blank"
+              >please sign up here</a
+            >
+            and a BSS organizer will be in touch shortly.
+          </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            Rain or shine! All items are free to all while supplies last. Please
+            remember to wear a mask. PPE provided! ❤️
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#1c6558"
+      background-repeat="repeat"
+      full-width="full-width"
+      padding="48px 36px 48px 36px"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="10px"
+          padding-right="10px"
+          padding-top="0px"
+          padding="0px 10px 0px 10px"
+        >
+          <p class="text-content text-content-light" style="margin-top: 10px; margin-bottom: 10px">
+            P.S. THANK YOU to everyone who has donated to our
+            <em>Buy Your Neighbor a Turkey</em> fundraiser. It’s thanks to
+            your donations that we were able to host the November 11 emergency
+            food distribution. Even before SNAP delays, high quality,
+            affordable food was inaccessible in our community.
+          </p>
+          <p class="text-content text-content-light" style="margin-top: 10px; margin-bottom: 10px">
+            Since 2020, we’ve redistributed around $1.5 million back into our
+            neighborhood through groceries, cash assistance, books, COVID-19
+            PPE, hygiene essentials, and more. We have been finding it
+            increasingly hard to bring in consistent donations with the
+            closure of our fiscal sponsor, ioby, and the increased financial
+            hardships within our community.
+          </p>
+          <p class="text-content text-content-light" style="margin-top: 10px; margin-bottom: 10px">
+            Any additional donations we receive will continue to go right back
+            into the community and support our food access work in partnership
+            with the Brooklyn Packers.
+          </p>
+          <p class="text-content text-content-light" style="margin-top: 10px; margin-bottom: 10px">
+            <br />
+            Venmo:
+            <a
+              href="https://account.venmo.com/u/bedstuystrong"
+              target="_blank"
+              style="color: #ffffff"
+            >
+              @bedstuystrong
+            </a>
+            <br />
+            Cashapp:
+            <a
+              href="https://cash.app/$bedstuystrong"
+              target="_blank"
+              style="color: #ffffff"
+            >
+              $bedstuystrong
+            </a>
+            <br />
+            Zelle: fund@bedstuystrong.com
+            <br /><br />
+            or
+            <a
+              href="https://www.bedstuystrong.com/donate-monthly"
+              target="_blank"
+              style="color: #ffffff"
+            >sign up to donate monthly</a> 💖
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="24px 24px 24px 24px"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 10px 0px 10px"
+        >
+          <p class="text-content text-content-dark" style="margin: 10px 0; margin-bottom: 10px">
+            With love and in solidarity,<br />Bed-Stuy Strong organizers
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#1c6558"
+      padding="10px 30px 10px 30px"
+    >
+      <mj-group vertical-align="middle">
+        <mj-column vertical-align="middle" width="33%">
+          <mj-text
+            css-class="text-content text-content-light"
+            font-family="Helvetica, Arial, sans-serif"
+            padding="0px 10px 0px 10px"
+          >
+            <p
+              class="text-content text-content-light"
+              style="
+                text-align: left;
+                margin: 10px 0;
+              "
+            >
+              <b>Keep in touch</b>
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="67%">
+          <mj-include path="../../includes/social.mjml" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-include path="../../includes/footer.mjml" />
+  </mj-body>
+</mjml>

@@ -6,10 +6,11 @@ import mjml2html from 'mjml';
 
 import options from './.mjmlconfig.js';
 
+const PORT = process.env.PORT || 3001;
 const server = Fastify();
 
 server.register(fastifyStatic, {
-  root: path.join(__dirname, 'static'),
+  root: path.join(import.meta.dirname, 'static'),
 });
 
 server.get('/', async function handler(request, response) {
@@ -27,14 +28,16 @@ server.get('/email/:emailName', async function handler(request, response) {
   const { inline, ...query } = request.query;
 
   const mjml = await fs.readFile(path.resolve('content', `${emailName}.mjml`), {encoding: 'utf-8'});
-  const {html, errors} = mjml2html(mjml, options);
-  console.log(errors);
+  const {html, errors, json} = mjml2html(mjml, options.makeOptions({
+    static_url: `http://localhost:${PORT}`
+  }));
+  console.log(json);
 
   return response.type('text/html').send(html);
 });
 
 try {
-  await server.listen({ port: process.env.PORT || 3001 });
+  await server.listen({ port: PORT });
 } catch (err) {
   server.log.error(err);
   process.exit(1);
