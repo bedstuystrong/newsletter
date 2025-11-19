@@ -1,5 +1,5 @@
 [dev]
-command = "node preview.mjs"
+command = "node preview.mts"
 targetPort = 3001
 
 [build]
