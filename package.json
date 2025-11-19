@@ -1,6 +1,10 @@
 {
+  "scripts": {
+    "build": "node build.js"
+  },
   "dependencies": {
     "eta": "3",
+    "fs-extra": "^11.3.2",
     "mjml": "^4.16.1",
     "postmark": "^4.0.5"
   },

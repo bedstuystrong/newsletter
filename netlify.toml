@@ -1,7 +1,7 @@
 [dev]
-command = "node preview.js"
+command = "node preview.mjs"
 targetPort = 3001
 
 [build]
 publish = "dist"
-command = "mkdir -p dist && cp -R static/* dist/"
+command = "yarn build"
