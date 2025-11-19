@@ -1,3 +1,4 @@
+<% if (it.include_footer) { %>
 <mj-include path="./footer.css" type="css" css-inline="inline" />
 <mj-section
   background-color="transparent"
@@ -33,3 +34,4 @@
     </mj-text>
   </mj-column>
 </mj-section>
+<% } %>

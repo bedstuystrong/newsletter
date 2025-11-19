@@ -6,7 +6,7 @@ import { fastifyStatic } from "@fastify/static";
 import mjml2html from "mjml";
 import postmark from "postmark";
 
-import options from "./.mjmlconfig.js";
+import { makeOptions } from "./mjml.mjs";
 
 const { positionals } = parseArgs({ allowPositionals: true });
 const emailName = positionals[0];
@@ -18,9 +18,7 @@ try {
   throw new Error(`Couldn't find directory content/${emailName}`);
 }
 
-const mjml = await fs.readFile(
-  path.resolve("content", `${emailName}/index.mjml`),
-  { encoding: "utf-8" }
-);
-const { html, errors, json } = mjml2html(mjml, options);
+const mjmlPath = path.resolve("content", `${emailName}/index.mjml`);
+const mjml = await fs.readFile(mjmlPath, { encoding: "utf-8" });
+const { html, errors, json } = mjml2html(mjml, makeOptions(mjmlPath));
 console.log(json);

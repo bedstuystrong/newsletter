@@ -22,7 +22,12 @@ await Promise.allSettled(
 
     const mjmlPath = path.resolve("content", `${emailName}/index.mjml`);
     const mjml = await fs.readFile(mjmlPath, { encoding: "utf-8" });
-    const { html, errors, json } = mjml2html(mjml, makeOptions(mjmlPath));
+    const { html, errors, json } = mjml2html(
+      mjml,
+      makeOptions(mjmlPath, {
+        include_footer: false,
+      })
+    );
     if (errors.length) {
       console.log(errors);
     }
