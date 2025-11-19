@@ -1,5 +1,5 @@
 [dev]
-command = "node preview.mts"
+command = "yarn preview"
 targetPort = 3001
 
 [build]

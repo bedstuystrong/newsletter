@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.mts",
+    "preview": "node preview.mts"
   },
   "dependencies": {
     "eta": "3",
