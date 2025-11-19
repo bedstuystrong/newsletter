@@ -4,6 +4,7 @@ import { Eta } from "eta";
 interface TemplateData {
   static_url: string;
   include_footer: boolean;
+  permalink?: string;
 }
 
 export const defaultData: TemplateData = {

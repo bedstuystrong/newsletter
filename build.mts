@@ -16,7 +16,7 @@ const emails = (await fs.readdir("content", { withFileTypes: true }))
   .filter((dirent) => dirent.isDirectory())
   .map((dirent) => dirent.name);
 
-await Promise.allSettled(
+await Promise.all(
   emails.map(async (emailName) => {
     await fs.mkdir(path.join("dist", emailName));
 
@@ -26,6 +26,7 @@ await Promise.allSettled(
       mjml,
       makeOptions(mjmlPath, {
         include_footer: false,
+        permalink: `${process.env.URL}/${emailName}`,
       })
     );
     if (errors.length) {
@@ -40,7 +41,7 @@ await Promise.allSettled(
       await fs.readdir(path.resolve("content", emailName))
     ).filter((filename) => !filename.endsWith(".mjml"));
 
-    await Promise.allSettled(
+    await Promise.all(
       assets.map(
         async (filename) =>
           await fs.copyFile(

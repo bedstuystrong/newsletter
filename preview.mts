@@ -47,6 +47,7 @@ server.get("/:emailName", async function handler(request, response) {
     mjml,
     makeOptions(mjmlPath, {
       static_url: `http://localhost:${PORT}`,
+      permalink: `http://localhost:${PORT}/${emailName}`,
     })
   );
   // console.log(json);
