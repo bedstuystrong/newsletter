@@ -1,0 +1,42 @@
+<mj-social
+  align="right"
+  border-radius="50%"
+  color="#ffffff"
+  font-family="Arial, sans-serif"
+  font-size="13px"
+  icon-padding="5px 5px 5px 5px"
+  icon-size="26px"
+  line-height="22px"
+  mode="horizontal"
+  padding-bottom="0px"
+  padding-left="0px"
+  padding-right="0px"
+  padding-top="0px"
+  padding="0px 0px 0px 0px"
+  text-decoration="none"
+>
+  <mj-social-element
+    background-color="#3B5998"
+    href="https://bedstuystrong.com"
+    name="web-noshare"
+    src="<%= it.assets_url %>/globe.png"
+  ></mj-social-element>
+  <mj-social-element
+    background-color="#3B5998"
+    href="https://www.facebook.com/bedstuystrong"
+    name="facebook-noshare"
+  ></mj-social-element>
+  <mj-social-element
+    alt=""
+    background-color="#d430ab"
+    href="http://instagram.com/bedstuystrong/"
+    name="instagram-noshare"
+  ></mj-social-element>
+  <mj-social-element
+    alt=""
+    background-color="#1DA1F2"
+    href="https://bsky.app/profile/bedstuystrong.bsky.social"
+    name="bluesky-noshare"
+    src="<%= it.assets_url %>/bluesky.png"
+  ></mj-social-element>
+</mj-social>

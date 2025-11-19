@@ -1,17 +1,36 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
 import Fastify from 'fastify';
+import {fastifyStatic} from '@fastify/static';
 import mjml2html from 'mjml';
 
-import options from './.mjmlconfig';
+import options from './.mjmlconfig.js';
 
 const server = Fastify();
 
-server.get('/email/:emailName', async function handler(request, reply) {
+server.register(fastifyStatic, {
+  root: path.join(__dirname, 'static'),
+});
+
+server.get('/', async function handler(request, response) {
+  const emails = (await fs.readdir('content')).filter(filename => filename.endsWith(".mjml"));
+
+  const html = emails.map((filename) => {
+    const emailName = filename.replace(".mjml", "");
+    return `<a href="/email/${emailName}">${emailName}</a>`
+  }).join("<br />");
+  return response.type('text/html').send(html);
+})
+
+server.get('/email/:emailName', async function handler(request, response) {
   const { emailName } = request.params;
   const { inline, ...query } = request.query;
 
-  const html = mjml2html(mjml, options);
+  const mjml = await fs.readFile(path.resolve('content', `${emailName}.mjml`), {encoding: 'utf-8'});
+  const {html, errors} = mjml2html(mjml, options);
+  console.log(errors);
 
-  return reply.type('text/html').send(html);
+  return response.type('text/html').send(html);
 });
 
 try {

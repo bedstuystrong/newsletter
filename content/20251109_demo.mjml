@@ -1,112 +1,817 @@
 <mjml dir="ltr" lang="en" owa="desktop" version="4.14.1">
   <!-- Based on Mailjet's "New Year Newsletter" template -->
   <mj-head>
-    <mj-head-color-scheme schemes="light dark"></mj-head-color-scheme>
+    <mj-raw>
+      <meta name="color-scheme" content="light dark">
+      <meta name="supported-color-schemes" content="light dark">
+      <style type="text/css">
+        :root {
+          color-scheme: light dark;
+          supported-color-schemes: light dark;
+        }
+      </style>
+    </mj-raw>
     <mj-preview></mj-preview>
   </mj-head>
-  <mj-body background-color="#F2F2F2" color="#515557" font-family="Arial, sans-serif">
-    <mj-section background-repeat="repeat" background-size="auto" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="0px" padding="0px 0px 0px 0px" text-align="center" vertical-align="top">
+  <mj-body
+    background-color="#F2F2F2"
+    color="#515557"
+    font-family="Arial, sans-serif"
+  >
+    <mj-section
+      background-repeat="repeat"
+      background-size="auto"
+      padding-bottom="0px"
+      padding-left="0px"
+      padding-right="0px"
+      padding-top="0px"
+      padding="0px 0px 0px 0px"
+      text-align="center"
+    >
       <mj-column>
-        <mj-text font-family="Helvetica, Arial, sans-serif" padding-bottom="4px" padding-left="10px" padding-right="10px" padding-top="4px" padding="4px 10px 4px 10px">
-          <p style="text-align: center; margin: 10px 0; margin-top: 10px; margin-bottom: 10px;"><span style="text-align:center;line-height:23px;letter-spacing:normal;font-size:14px;color:#515557;text-align:left;font-family:Arial">Lorem ipsum dolor sit amet | </span><a href="[[PERMALINK]]" target="_blank"><span><b><u><span style="text-align:center;line-height:23px;letter-spacing:normal;font-size:14px;color:#8066FF;text-align:left;font-family:Arial"><b><u>View in your browser</u></b></span></u></b></span></a></p>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="4px"
+          padding-left="10px"
+          padding-right="10px"
+          padding-top="4px"
+          padding="4px 10px 4px 10px"
+        >
+          <p
+            style="
+              text-align: center;
+              margin: 10px 0;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            "
+          >
+            <span
+              style="
+                text-align: center;
+                line-height: 23px;
+                letter-spacing: normal;
+                font-size: 14px;
+                color: #515557;
+                text-align: left;
+                font-family: Arial;
+              "
+              >2 grocery distributions this month! | </span
+            ><a href="[[PERMALINK]]" target="_blank"
+              ><span
+                ><b
+                  ><u
+                    ><span
+                      style="
+                        text-align: center;
+                        line-height: 23px;
+                        letter-spacing: normal;
+                        font-size: 14px;
+                        color: #538f0b;
+                        text-align: left;
+                        font-family: Arial;
+                      "
+                      ><b><u>View in your browser</u></b></span
+                    ></u
+                  ></b
+                ></span
+              ></a
+            >
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" background-repeat="repeat" padding-bottom="36px" padding-left="24px" padding-right="24px" padding-top="36px" padding="36px 24px 36px 24px" text-align="center" vertical-align="middle">
+    <mj-section
+      background-color="#ffffff"
+      background-repeat="repeat"
+      padding-bottom="36px"
+      padding-left="24px"
+      padding-right="24px"
+      padding-top="36px"
+      padding="36px 24px 36px 24px"
+      text-align="center"
+    >
       <mj-group vertical-align="top">
-        <mj-column vertical-align="middle">
-          <mj-image align="left" alt="Bed-Stuy Strong logo" border="none" fluid-on-mobile="true" height="113px" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="0px" padding="0px 0px 0px 0px" src="https://10pmj.mjt.lu/img2/10pmj/8df1f4e7-5568-4c8d-8bde-12ba9742bea1/content" target="_blank" title="" width="160px"></mj-image>
+        <mj-column width="30%" vertical-align="middle">
+          <mj-image
+            align="left"
+            alt="Bed-Stuy Strong logo"
+            border="none"
+            padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
+            padding-top="0px"
+            padding="0px 0px 0px 0px"
+            src="https://10pmj.mjt.lu/img2/10pmj/8df1f4e7-5568-4c8d-8bde-12ba9742bea1/content"
+            target="_blank"
+            title=""
+          ></mj-image>
         </mj-column>
-        <mj-column vertical-align="middle">
-          <mj-text font-family="Helvetica, Arial, sans-serif" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="0px" padding="0px 0px 0px 0px">
-            <h3 style="text-align:right; margin-top: 10px; margin-bottom: 10px"><span style="text-align:right;letter-spacing:normal;font-size:13px;color:#515557;text-align:left;font-family:Arial"><b>November 2025</b></span></h3>
+        <mj-column width="70%" vertical-align="top">
+          <mj-text
+            font-family="Helvetica, Arial, sans-serif"
+            padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
+            padding-top="0px"
+            padding="0px 0px 0px 0px"
+          >
+            <h3
+              style="text-align: right; margin-top: 10px; margin-bottom: 10px"
+            >
+              <span
+                style="
+                  text-align: right;
+                  letter-spacing: normal;
+                  font-size: 13px;
+                  color: #515557;
+                  text-align: left;
+                  font-family: Arial;
+                "
+                ><b>November 2025</b></span
+              >
+            </h3>
           </mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="#ffffff" background-repeat="repeat" padding="0px 24px 24px 24px" text-align="center" vertical-align="top">
+    <mj-section
+      background-color="#ffffff"
+      background-repeat="repeat"
+      padding="0px 24px 0px 24px"
+      text-align="center"
+      vertical-align="top"
+    >
+      <mj-column width="60%">
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="12px"
+          padding-left="12px"
+          padding-right="12px"
+          padding-top="0px"
+          padding="0px 12px 12px 12px"
+        >
+          <h3 class="text-build-content" style="margin-top: 10px">
+            <span style="color: #515557; font-family: Arial; font-size: 18px"
+              ><b>Hello <%= it.name %>,</b></span
+            >
+          </h3>
+          <p
+            class="text-build-content"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            <span
+              style="
+                color: #515557;
+                font-family: Arial;
+                font-size: 16px;
+                line-height: 22px;
+              "
+              >Bed-Stuy Strong will be hosting two free grocery distributions
+              this month.</span
+            >
+          </p>
+          <p
+            class="text-build-content"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            <span
+              style="
+                color: #515557;
+                font-family: Arial;
+                font-size: 16px;
+                line-height: 22px;
+              "
+              >The first one is
+              <strong><u>tomorrow, November 11th</u> starting at 10 am.</strong>
+              Stop by the Marcy/Greene Ave corner of Herbert von King Park for
+              seasonal produce and grocery essentials.</span
+            >
+          </p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="40%">
+        <mj-image
+          align="center"
+          alt="flyer on a background of produce boxes full of vegetables. the text reads: 
+Bed-Stuy Strong Food Distributions November 2025
+Herbert von King Park (Marcy/Greene Ave)
+1) Tuesday, 11/11. 10 AM *Fresh produce & pantry essentials
+2) Sunday, 11/23. 1 PM *Turkeys, fresh produce, pantry essentials *COVID-19 rapid tests + PPE
+
+Free to all * While supplies last * Please wear a mask"
+          border="none"
+          height="auto"
+          padding="12px 12px 10px 12px"
+          src="20251109_flyer.png"
+          target="_blank"
+          href="https://www.instagram.com/bedstuystrong/p/DQnN2o5DLUo/"
+          title=""
+        ></mj-image>
+      </mj-column>
+
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      background-repeat="repeat"
+      padding="0px 24px 24px 24px"
+      text-align="center"
+    >
       <mj-column>
-        <mj-text font-family="Helvetica, Arial, sans-serif" padding-bottom="0px" padding-left="12px" padding-right="12px" padding-top="0px" padding="0px 12px 0px 12px">
-          <h3 class="text-build-content" style="margin-top: 10px"><span style="color:#515557;font-family:Arial;font-size:18px;"><b>&nbsp;🍂 greetings <%= it.name %>,</b></span></h3><p class="text-build-content" style="margin: 10px 0; margin-bottom: 10px;"><span style="color:#515557;font-family:Arial;font-size:16px;line-height:22px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="12px"
+          padding-right="12px"
+          padding-top="12px"
+          padding="12px 12px 0px 12px"
+        >
+          <p
+            class="text-build-content"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            <span
+              style="
+                color: #515557;
+                font-family: Arial;
+                font-size: 16px;
+                line-height: 22px;
+              "
+            >
+              The second distribution will be our annual Fall Harvest event,
+              where we will be giving out free turkeys, seasonal produce,
+              grocery essentials, and COVID-19 home tests + PPE. Join us for the
+              Fall Harvest on
+              <strong>Sunday, November 23rd starting at 12 pm</strong> at
+              Herbert von King Park (Marcy/Greene Ave).
+            </span>
+          </p>
+          <p
+            class="text-build-content"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            <span
+              style="
+                color: #515557;
+                font-family: Arial;
+                font-size: 16px;
+                line-height: 22px;
+              "
+            >
+              Both food distributions will happen rain or shine! All items are
+              free to all while supplies last. Please remember to wear a mask!
+              ♥️
+            </span>
+          </p>
+          <p
+            class="text-build-content"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            <span
+              style="
+                color: #515557;
+                font-family: Arial;
+                font-size: 16px;
+                line-height: 22px;
+              "
+            >
+              We are looking for volunteers to help on Sunday, November 23rd. If
+              you’d like to join us, 
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe61uAIRwUhnXRoJUvK6CCEtVk-6qKvjaCDFizQLau4_WuQDg/viewform?usp=dialog"
+                target="_blank"
+                >please sign up here</a
+              >
+              and a BSS organizer will be in touch shortly.
+            </span>
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" background-repeat="repeat" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="0px" padding="0px 0px 0px 0px" text-align="center" vertical-align="top">
+    <!-- <mj-section
+      background-color="#ffffff"
+      background-repeat="repeat"
+      padding-bottom="0px"
+      padding-left="0px"
+      padding-right="0px"
+      padding-top="0px"
+      padding="0px 0px 0px 0px"
+      text-align="center"
+      vertical-align="top"
+    >
       <mj-column>
-        <mj-image align="center" alt="Banner" border="none" height="auto" padding-bottom="12px" padding-left="0px" padding-right="0px" padding-top="0px" padding="0px 0px 12px 0px" src="https://rzpx.mjt.lu/img2/rzpx/76d7076d-3281-437b-8129-95f417755edf/content" target="_blank" title="" width="1200px"></mj-image>
+        <mj-image
+          align="center"
+          alt="Banner"
+          border="none"
+          height="auto"
+          padding-bottom="12px"
+          padding-left="0px"
+          padding-right="0px"
+          padding-top="0px"
+          padding="0px 0px 12px 0px"
+          src="https://rzpx.mjt.lu/img2/rzpx/76d7076d-3281-437b-8129-95f417755edf/content"
+          target="_blank"
+          title=""
+          width="1200px"
+        ></mj-image>
       </mj-column>
-    </mj-section>
-    <mj-section background-color="#ffffff" background-repeat="repeat" padding-bottom="24px" padding-left="24px" padding-right="24px" padding-top="12px" padding="12px 24px 24px 24px" text-align="center" vertical-align="top">
+    </mj-section> -->
+    <!-- <mj-section
+      background-color="#ffffff"
+      background-repeat="repeat"
+      padding-bottom="24px"
+      padding-left="24px"
+      padding-right="24px"
+      padding-top="12px"
+      padding="12px 24px 24px 24px"
+      text-align="center"
+      vertical-align="top"
+    >
       <mj-column>
-        <mj-text font-family="Helvetica, Arial, sans-serif" padding-bottom="0px" padding-left="12px" padding-right="12px" padding-top="0px" padding="0px 12px 0px 12px">
-          <h1 class="text-build-content" style="margin-top: 10px"><span style="color:#595e61;font-family:Georgia;font-size:24px;line-height:28px"><b>Single-column section with header</b></span></h1><p class="text-build-content" style="margin: 10px 0; margin-bottom: 10px;"><span style="color:#595e61;font-family:Arial;font-size:16px;line-height:23px">Aenean vel elit scelerisque mauris pellentesque. Amet venenatis urna cursus eget. Id eu nisl nunc mi ipsum faucibus vitae aliquet nec. Condimentum id venenatis a condimentum vitae sapien. Eget mauris pharetra et ultrices. Cursus sit amet dictum sit amet justo.</span></p>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="12px"
+          padding-right="12px"
+          padding-top="0px"
+          padding="0px 12px 0px 12px"
+        >
+          <h1 class="text-build-content" style="margin-top: 10px">
+            <span
+              style="
+                color: #595e61;
+                font-family: Georgia;
+                font-size: 24px;
+                line-height: 28px;
+              "
+              ><b>Single-column section with header</b></span
+            >
+          </h1>
+          <p
+            class="text-build-content"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            <span
+              style="
+                color: #595e61;
+                font-family: Arial;
+                font-size: 16px;
+                line-height: 23px;
+              "
+              >Aenean vel elit scelerisque mauris pellentesque. Amet venenatis
+              urna cursus eget. Id eu nisl nunc mi ipsum faucibus vitae aliquet
+              nec. Condimentum id venenatis a condimentum vitae sapien. Eget
+              mauris pharetra et ultrices. Cursus sit amet dictum sit amet
+              justo.</span
+            >
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section> -->
+    <mj-section
+      background-color="#538f0b"
+      background-repeat="repeat"
+      full-width="full-width"
+      padding-bottom="48px"
+      padding-left="36px"
+      padding-right="36px"
+      padding-top="48px"
+      padding="48px 36px 48px 36px"
+      text-align="center"
+      vertical-align="top"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="10px"
+          padding-right="10px"
+          padding-top="0px"
+          padding="0px 10px 0px 10px"
+        >
+          <p
+            class="text-build-content"
+            style="margin-top: 10px; margin-bottom: 10px"
+          >
+            <span
+              style="
+                color: #ffffff;
+                font-family: Arial;
+                font-size: 16px;
+                line-height: 22px;
+              "
+              >
+                P.S. THANK YOU to everyone who has donated to our Buy Your Neighbor a Turkey fundraiser. Thanks to your donations, we are able to host tomorrow’s emergency food distribution. Even before SNAP delays, high quality, affordable food was already inaccessible in our community.
+              </span>
+          </p>
+          <p
+            class="text-build-content"
+            style="margin-top: 10px; margin-bottom: 10px"
+          >
+            <span
+              style="
+                color: #ffffff;
+                font-family: Arial;
+                font-size: 16px;
+                line-height: 22px;
+              "
+              >
+                Since 2020, we’ve redistributed around $1.5 million back into our neighborhood through groceries, cash assistance, books, COVID-19 PPE, hygiene essentials, and more. We have been finding it increasingly hard to bring in consistent donations with the closure of our fiscal sponsor, ioby, and the increased financial hardships within our community.
+              </span>
+          </p>
+          <p
+            class="text-build-content"
+            style="margin-top: 10px; margin-bottom: 10px"
+          >
+            <span
+              style="
+                color: #ffffff;
+                font-family: Arial;
+                font-size: 16px;
+                line-height: 22px;
+              "
+              >
+                Any additional donations we receive will continue to go right back in the community, and support our food access work in partnership with The Brooklyn Packers. 
+              </span>
+          </p>
+          <p
+            class="text-build-content"
+            style="margin-top: 10px; margin-bottom: 10px"
+          >
+            <span
+              style="
+                color: #ffffff;
+                font-family: Arial;
+                font-size: 16px;
+                line-height: 22px;
+              "
+              >
+                Venmo: <a href="https://account.venmo.com/u/bedstuystrong" target="_blank">@bedstuystrong</a><br>
+                Cashapp: <a href="https://cash.app/$bedstuystrong" target="_blank">$bedstuystrong</a><br>
+                Zelle: fund@bedstuystrong.com<br>
+                or <a href="https://www.bedstuystrong.com/donate-monthly" target="_blank">sign up to donate monthly</a>
+              </span>
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#8066FF" background-repeat="repeat" full-width="full-width" padding-bottom="48px" padding-left="36px" padding-right="36px" padding-top="48px" padding="48px 36px 48px 36px" text-align="center" vertical-align="top">
-      <mj-column>
-        <mj-text font-family="Helvetica, Arial, sans-serif" padding-bottom="0px" padding-left="10px" padding-right="10px" padding-top="0px" padding="0px 10px 0px 10px">
-          <h3 class="text-build-content" style="margin-top: 10px; margin-bottom: 10px"><span style="color:#ffffff;font-family:Arial;font-size:30px;line-height:34px;"><b>hero text</b></span></h3>
-        </mj-text>
-      </mj-column>
-      <mj-column vertical-align="top">
-        <mj-spacer height="50px"></mj-spacer>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#ffffff" background-repeat="repeat" padding-bottom="24px" padding-left="24px" padding-right="24px" padding-top="12px" padding="12px 24px 24px 24px" text-align="center" vertical-align="top">
+    <!-- <mj-section
+      background-color="#ffffff"
+      background-repeat="repeat"
+      padding-bottom="24px"
+      padding-left="24px"
+      padding-right="24px"
+      padding-top="12px"
+      padding="12px 24px 24px 24px"
+      text-align="center"
+      vertical-align="top"
+    >
       <mj-column width="25%">
-        <mj-image align="center" alt="" border="none" height="auto" padding="12px 12px 10px 12px" src="" target="_blank" title=""></mj-image>
+        <mj-image
+          align="center"
+          alt=""
+          border="none"
+          height="auto"
+          padding="12px 12px 10px 12px"
+          src=""
+          target="_blank"
+          title=""
+        ></mj-image>
       </mj-column>
       <mj-column vertical-align="top" width="75%">
-        <mj-text font-family="Helvetica, Arial, sans-serif" padding-bottom="0px" padding-left="10px" padding-right="10px" padding-top="0px" padding="0px 10px 0px 10px">
-          <h1 class="text-build-content" style="margin-top: 10px"><span style="color:#595e61;font-family:Georgia;font-size:24px;line-height:28px"><b>Text in column</b></span></h1><p class="text-build-content" style="margin: 10px 0; margin-bottom: 10px;"><span style="color:#595e61;font-family:Arial;font-size:16px;line-height:23px">Aenean vel elit scelerisque mauris pellentesque. Amet venenatis urna cursus eget. Id eu nisl nunc mi ipsum faucibus vitae aliquet nec. Condimentum id venenatis a condimentum vitae sapien. Eget mauris pharetra et ultrices. Cursus sit amet dictum sit amet justo.</span></p>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="10px"
+          padding-right="10px"
+          padding-top="0px"
+          padding="0px 10px 0px 10px"
+        >
+          <h1 class="text-build-content" style="margin-top: 10px">
+            <span
+              style="
+                color: #595e61;
+                font-family: Georgia;
+                font-size: 24px;
+                line-height: 28px;
+              "
+              ><b>Text in column</b></span
+            >
+          </h1>
+          <p
+            class="text-build-content"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            <span
+              style="
+                color: #595e61;
+                font-family: Arial;
+                font-size: 16px;
+                line-height: 23px;
+              "
+              >Aenean vel elit scelerisque mauris pellentesque. Amet venenatis
+              urna cursus eget. Id eu nisl nunc mi ipsum faucibus vitae aliquet
+              nec. Condimentum id venenatis a condimentum vitae sapien. Eget
+              mauris pharetra et ultrices. Cursus sit amet dictum sit amet
+              justo.</span
+            >
+          </p>
         </mj-text>
       </mj-column>
-    </mj-section>
-    <mj-section background-color="#8066FF" background-repeat="repeat" full-width="full-width" padding-bottom="24px" padding-left="0px" padding-right="0px" padding-top="24px" padding="24px 0px 24px 0px" text-align="center" vertical-align="top">
+    </mj-section> -->
+    <!-- <mj-section
+      background-color="#538f0b"
+      background-repeat="repeat"
+      full-width="full-width"
+      padding-bottom="24px"
+      padding-left="0px"
+      padding-right="0px"
+      padding-top="24px"
+      padding="24px 0px 24px 0px"
+      text-align="center"
+      vertical-align="top"
+    >
       <mj-column>
-        <mj-button align="center" background-color="#008cff" border-radius="6px" border="0px solid #ffffff" color="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="18px" font-weight="normal" href="https://account.venmo.com/u/bedstuystrong" inner-padding="12px 24px 12px 24px" padding="12px 12px 12px 12px" text-decoration="none" text-transform="none" vertical-align="middle">
-          <span style="color:#ffffff;font-family:Arial, sans-serif;font-size:18px;"><b>Venmo</b></span>
+        <mj-button
+          align="center"
+          background-color="#008cff"
+          border-radius="6px"
+          border="0px solid #ffffff"
+          color="#ffffff"
+          font-family="Helvetica, Arial, sans-serif"
+          font-size="18px"
+          font-weight="normal"
+          href="https://account.venmo.com/u/bedstuystrong"
+          inner-padding="12px 24px 12px 24px"
+          padding="12px 12px 12px 12px"
+          text-decoration="none"
+          text-transform="none"
+          vertical-align="middle"
+        >
+          <span
+            style="
+              color: #ffffff;
+              font-family: Arial, sans-serif;
+              font-size: 18px;
+            "
+            ><b>Venmo</b></span
+          >
         </mj-button>
       </mj-column>
       <mj-column vertical-align="top">
-        <mj-button align="center" background-color="#00d632" border-radius="6px" border="0px solid #ffffff" color="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="18px" font-weight="normal" href="https://cash.app/$bedstuystrong" inner-padding="12px 24px 12px 24px" padding="12px 12px 12px 12px" text-decoration="none" text-transform="none" vertical-align="middle">
-          <span style="background-color:transparent;color:#ffffff;font-family:Arial, sans-serif;font-size:18px;"><b>Cash App</b></span>
+        <mj-button
+          align="center"
+          background-color="#00d632"
+          border-radius="6px"
+          border="0px solid #ffffff"
+          color="#ffffff"
+          font-family="Helvetica, Arial, sans-serif"
+          font-size="18px"
+          font-weight="normal"
+          href="https://cash.app/$bedstuystrong"
+          inner-padding="12px 24px 12px 24px"
+          padding="12px 12px 12px 12px"
+          text-decoration="none"
+          text-transform="none"
+          vertical-align="middle"
+        >
+          <span
+            style="
+              background-color: transparent;
+              color: #ffffff;
+              font-family: Arial, sans-serif;
+              font-size: 18px;
+            "
+            ><b>Cash App</b></span
+          >
         </mj-button>
       </mj-column>
       <mj-column vertical-align="top">
-        <mj-button align="center" background-color="#4937d2" border-radius="6px" border="0px solid #ffffff" color="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="18px" font-weight="normal" href="https://www.bedstuystrong.com/donate-monthly" inner-padding="12px 20px 12px 20px" padding="12px 12px 12px 12px" text-decoration="none" text-transform="none" vertical-align="middle">
-          <span style="background-color:transparent;color:#ffffff;font-family:Arial, sans-serif;font-size:18px;"><b>Donate monthly</b></span>
+        <mj-button
+          align="center"
+          background-color="#4937d2"
+          border-radius="6px"
+          border="0px solid #ffffff"
+          color="#ffffff"
+          font-family="Helvetica, Arial, sans-serif"
+          font-size="18px"
+          font-weight="normal"
+          href="https://www.bedstuystrong.com/donate-monthly"
+          inner-padding="12px 20px 12px 20px"
+          padding="12px 12px 12px 12px"
+          text-decoration="none"
+          text-transform="none"
+          vertical-align="middle"
+        >
+          <span
+            style="
+              background-color: transparent;
+              color: #ffffff;
+              font-family: Arial, sans-serif;
+              font-size: 18px;
+            "
+            ><b>Donate monthly</b></span
+          >
         </mj-button>
       </mj-column>
-    </mj-section>
-    <mj-section background-color="#ffffff" background-repeat="repeat" padding-bottom="24px" padding-left="24px" padding-right="24px" padding-top="24px" padding="24px 24px 24px 24px" text-align="center" vertical-align="top">
+    </mj-section> -->
+    <mj-section
+      background-color="#ffffff"
+      background-repeat="repeat"
+      padding-bottom="24px"
+      padding-left="24px"
+      padding-right="24px"
+      padding-top="24px"
+      padding="24px 24px 24px 24px"
+      text-align="center"
+      vertical-align="top"
+    >
       <mj-column>
-        <mj-text font-family="Helvetica, Arial, sans-serif" padding-bottom="0px" padding-left="10px" padding-right="10px" padding-top="0px" padding="0px 10px 0px 10px">
-          <h1 class="text-build-content" style="margin-top: 10px"><span style="color:#595e61;font-family:Georgia;font-size:24px;line-height:28px;"><b>Single-column text signoff</b></span></h1><p class="text-build-content" style="margin: 10px 0;"><span style="color:#595e61;font-family:Arial;font-size:16px;line-height:23px;">Aenean vel elit scelerisque mauris pellentesque. Amet venenatis urna cursus eget. Id eu nisl nunc mi ipsum faucibus vitae aliquet nec. Condimentum id venenatis a condimentum vitae sapien. Eget mauris pharetra et ultrices. Cursus sit amet dictum sit amet justo.</span></p><p class="text-build-content" style="margin: 10px 0;">&nbsp;</p><p class="text-build-content" style="margin: 10px 0; margin-bottom: 10px;"><span style="color:#595e61;font-family:Arial;font-size:16px;line-height:23px;">With love and in solidarity,</span><br><span style="color:#595e61;font-family:Arial;font-size:16px;line-height:23px;">Bed-Stuy Strong organizers 💖</span></p>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="10px"
+          padding-right="10px"
+          padding-top="0px"
+          padding="0px 10px 0px 10px"
+        >
+          <p
+            class="text-build-content"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            <span
+              style="
+                color: #595e61;
+                font-family: Arial;
+                font-size: 16px;
+                line-height: 23px;
+              "
+              >With love and in solidarity,</span
+            ><br /><span
+              style="
+                color: #595e61;
+                font-family: Arial;
+                font-size: 16px;
+                line-height: 23px;
+              "
+              >Bed-Stuy Strong organizers</span
+            >
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#8066FF" background-repeat="repeat" padding-bottom="10px" padding-left="30px" padding-right="30px" padding-top="10px" padding="10px 30px 10px 30px" text-align="center" vertical-align="middle">
+    <mj-section
+      background-color="#538f0b"
+      background-repeat="repeat"
+      padding-bottom="10px"
+      padding-left="30px"
+      padding-right="30px"
+      padding-top="10px"
+      padding="10px 30px 10px 30px"
+      text-align="center"
+      vertical-align="middle"
+    >
       <mj-group vertical-align="middle">
         <mj-column vertical-align="middle" width="33%">
-          <mj-text font-family="Helvetica, Arial, sans-serif" padding-bottom="0px" padding-left="10px" padding-right="10px" padding-top="0px" padding="0px 10px 0px 10px">
-            <p style="text-align: left; margin: 10px 0; margin-top: 10px; margin-bottom: 10px;"><span style="line-height:22px;letter-spacing:normal;font-size:16px;color:#ffffff;text-align:left;font-family:Arial"><b>Follow us</b></span></p>
+          <mj-text
+            font-family="Helvetica, Arial, sans-serif"
+            padding-bottom="0px"
+            padding-left="10px"
+            padding-right="10px"
+            padding-top="0px"
+            padding="0px 10px 0px 10px"
+          >
+            <p
+              style="
+                text-align: left;
+                margin: 10px 0;
+                margin-top: 10px;
+                margin-bottom: 10px;
+              "
+            >
+              <span
+                style="
+                  line-height: 22px;
+                  letter-spacing: normal;
+                  font-size: 16px;
+                  color: #ffffff;
+                  text-align: left;
+                  font-family: Arial;
+                "
+                ><b>Keep in touch</b></span
+              >
+            </p>
           </mj-text>
         </mj-column>
         <mj-column vertical-align="middle" width="67%">
-          <mj-social align="right" border-radius="50%" color="#ffffff" font-family="Lato, Helvetica, Arial, sans-serif" font-size="13px" icon-padding="5px 5px 5px 5px" icon-size="26px" line-height="22px" mode="horizontal" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="0px" padding="0px 0px 0px 0px" text-decoration="none" text-mode="false" width="100%">
-            <mj-social-element background-color="#3B5998" href="https://www.facebook.com/bedstuystrong" name="facebook-noshare" src="https://static.mailjet.com/ico-social/facebook.png"></mj-social-element>
-            <mj-social-element alt="" background-color="#9585F4" href="http://instagram.com/bedstuystrong/" name="instagram-noshare" src="https://static.mailjet.com/ico-social/instagram-colored.png"></mj-social-element>
-            <mj-social-element alt="" background-color="#1DA1F2" href="https://bsky.app/profile/bedstuystrong.bsky.social" name="bluesky-noshare" src="https://static.mailjet.com/ico-social/bluesky.png"></mj-social-element>
-          </mj-social>
+          <mj-include path="../includes/social.mjml">
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="transparent" background-repeat="repeat" padding-bottom="30px" padding-left="20px" padding-right="20px" padding-top="10px" padding="10px 20px 30px 20px" text-align="center" vertical-align="top">
+    <mj-section
+      background-color="transparent"
+      background-repeat="repeat"
+      padding-bottom="30px"
+      padding-left="20px"
+      padding-right="20px"
+      padding-top="10px"
+      padding="10px 20px 30px 20px"
+      text-align="center"
+    >
       <mj-column>
-        <mj-text font-family="Helvetica, Arial, sans-serif" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="0px" padding="0px 0px 0px 0px">
-          <p style="text-align: center; margin: 10px 0; margin-top: 10px; margin-bottom: 10px;"><span style="text-align:center;line-height:23px;letter-spacing:normal;font-size:16px;color:#000000;text-align:left;font-family:Arial"><br></span><span style="text-align:center;line-height:23px;letter-spacing:normal;font-size:16px;color:#515557;text-align:left;font-family:Arial">This e-mail has been sent to </span><span style="text-align:center;line-height:23px;letter-spacing:normal;font-size:16px;color:#515557;text-align:left;font-family:Arial"><b>[[EMAIL_TO]]</b></span><span style="text-align:center;line-height:23px;letter-spacing:normal;font-size:16px;color:#515557;text-align:left;font-family:Arial">, click </span><a href="[[UNSUB_LINK_EN]]" target="_blank"><span><b><u><span style="text-align:center;line-height:23px;letter-spacing:normal;font-size:16px;color:#515557;text-align:left;font-family:Arial"><b><u>here</u></b></span></u></b></span></a><span style="text-align:center;line-height:23px;letter-spacing:normal;font-size:16px;color:#515557;text-align:left;font-family:Arial"> to unsubscribe.</span></p>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="0px"
+          padding-right="0px"
+          padding-top="0px"
+          padding="0px 0px 0px 0px"
+        >
+          <p
+            style="
+              text-align: center;
+              margin: 10px 0;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            "
+          >
+            <span
+              style="
+                text-align: center;
+                line-height: 23px;
+                letter-spacing: normal;
+                font-size: 16px;
+                color: #000000;
+                text-align: left;
+                font-family: Arial;
+              "
+              ><br /></span
+            ><span
+              style="
+                text-align: center;
+                line-height: 23px;
+                letter-spacing: normal;
+                font-size: 16px;
+                color: #515557;
+                text-align: left;
+                font-family: Arial;
+              "
+              >This e-mail has been sent to </span
+            ><span
+              style="
+                text-align: center;
+                line-height: 23px;
+                letter-spacing: normal;
+                font-size: 16px;
+                color: #515557;
+                text-align: left;
+                font-family: Arial;
+              "
+              ><b>[[EMAIL_TO]]</b></span
+            ><span
+              style="
+                text-align: center;
+                line-height: 23px;
+                letter-spacing: normal;
+                font-size: 16px;
+                color: #515557;
+                text-align: left;
+                font-family: Arial;
+              "
+              >, click </span
+            ><a href="[[UNSUB_LINK_EN]]" target="_blank"
+              ><span
+                ><b
+                  ><u
+                    ><span
+                      style="
+                        text-align: center;
+                        line-height: 23px;
+                        letter-spacing: normal;
+                        font-size: 16px;
+                        color: #515557;
+                        text-align: left;
+                        font-family: Arial;
+                      "
+                      ><b><u>here</u></b></span
+                    ></u
+                  ></b
+                ></span
+              ></a
+            ><span
+              style="
+                text-align: center;
+                line-height: 23px;
+                letter-spacing: normal;
+                font-size: 16px;
+                color: #515557;
+                text-align: left;
+                font-family: Arial;
+              "
+            >
+              to unsubscribe.</span
+            >
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
