@@ -13,8 +13,8 @@
     >
       <p class="footer-text" style="text-align: center; margin: 10px 0">
         <br />
-        This e-mail has been sent to <b>{{ email }}</b>,  
-        <a href="{{{ pm:unsubscribe }}}" target="_blank">click here to unsubscribe</a>.
+        <!-- This e-mail has been sent to <b>{{ email }}</b>,   -->
+        <a href="{{{ pm:unsubscribe }}}" target="_blank">click here to unsubscribe</a>
       </p>
     </mj-text>
   </mj-column>
