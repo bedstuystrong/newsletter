@@ -1,3 +1,4 @@
+<mj-include path="./social.css" type="css" css-inline="inline" />
 <mj-social
   align="right"
   border-radius="50%"

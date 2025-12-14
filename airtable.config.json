@@ -1,0 +1,32 @@
+{
+  "bases": [
+    {
+      "id": "appTrt2FsxZ6uFAFy",
+      "key": "emails",
+      "tables": [
+        {
+          "key": "contacts",
+          "name": "Contacts",
+          "schema": {
+            "email": "email",
+            "firstName": "first_name",
+            "lastName": "last_name",
+            "phoneNumber": "phone_number",
+            "source": "source",
+            "member": "member",
+            "memberId": "member_id"
+          }
+        },
+        {
+          "key": "suppressions",
+          "name": "Suppressions",
+          "schema": {
+            "email": "email",
+            "reason": "reason",
+            "source": "source"
+          }
+        }
+      ]
+    }
+  ]
+}

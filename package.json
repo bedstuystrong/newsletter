@@ -4,10 +4,16 @@
     "preview": "node preview.mts"
   },
   "dependencies": {
+    "@inquirer/prompts": "^8.0.1",
+    "airtable": "^0.12.2",
+    "dotenv": "^17.2.3",
     "eta": "3",
     "fs-extra": "^11.3.2",
+    "html-to-text": "^9.0.5",
+    "lodash": "^4.17.21",
     "mjml": "^4.16.1",
-    "postmark": "^4.0.5"
+    "postmark": "^4.0.5",
+    "tiny-invariant": "^1.3.3"
   },
   "devDependencies": {
     "@fastify/static": "^8.3.0",
