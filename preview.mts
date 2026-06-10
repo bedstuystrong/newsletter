@@ -24,13 +24,13 @@ server.get("/", async function handler(request, response) {
 
   const html = emails
     .map((emailName) => {
-      return `<a href="/${emailName}">${emailName}</a>`;
+      return `<a href="/${emailName}/">${emailName}</a>`;
     })
     .join("<br />");
   return response.type("text/html").send(html);
 });
 
-server.get("/:emailName", async function handler(request, response) {
+server.get("/:emailName/", async function handler(request, response) {
   const { emailName } = request.params;
   const { inline, ...query } = request.query;
 
@@ -48,7 +48,7 @@ server.get("/:emailName", async function handler(request, response) {
     makeOptions(mjmlPath, {
       static_url: `http://localhost:${PORT}`,
       permalink: `http://localhost:${PORT}/${emailName}`,
-    })
+    }),
   );
   // console.log(json);
 

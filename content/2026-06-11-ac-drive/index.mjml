@@ -1,0 +1,244 @@
+<mjml dir="ltr" lang="en" owa="desktop" version="4.14.1">
+  <!-- Based on Mailjet's "New Year Newsletter" template -->
+  <mj-head>
+    <mj-title>Bed-Stuy Strong AC Redistribution</mj-title>
+    <mj-preview>need an air conditioner? have an air conditioner to donate? have a car?</mj-preview>
+    <mj-style inline="inline">
+      a {
+        text-decoration: underline;
+      } 
+      .text-content { 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 16px; 
+        line-height: 1.5; 
+      }
+      .text-content-dark {
+        color: #515557;
+      } 
+      .text-content-light {
+        color: #ffffff;
+      }
+    </mj-style>
+    <mj-raw>
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" content="light dark" />
+      <style type="text/css">
+        :root {
+          color-scheme: light dark;
+          supported-color-schemes: light dark;
+        }
+      </style>
+    </mj-raw>
+  </mj-head>
+  <mj-body background-color="#F2F2F2">
+    <mj-section padding="0px 0px 0px 0px" text-align="center">
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="4px 10px 4px 10px"
+        >
+          <p style="text-align: center; margin: 10px 0">
+            <span
+              style="
+                line-height: 23px;
+                letter-spacing: normal;
+                font-size: 14px;
+                color: #515557;
+                text-align: left;
+                font-family: Arial;
+              "
+              >June 2026 &nbsp;|&nbsp;
+            </span>
+            <a href="<%= it.permalink %>" target="_blank">
+              <span
+                style="
+                  line-height: 23px;
+                  letter-spacing: normal;
+                  font-size: 14px;
+                  color: #626DCB;
+                  font-family: Arial;
+                "
+              >
+                <b><u>View in your browser</u></b>
+              </span>
+            </a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#dbbce8"
+      padding="36px 24px 8px 24px"
+      text-align="center"
+    >
+      <mj-group vertical-align="top">
+        <mj-column width="20%" vertical-align="middle">
+          <mj-image
+            align="left"
+            alt="Bed-Stuy Strong logo"
+            border="none"
+            padding="0px 0px 0px 0px"
+            src="<%= it.static_url %>/logo_black_transparent.png"
+            target="_blank"
+            title=""
+          ></mj-image>
+        </mj-column>
+        <mj-column width="70%" vertical-align="top">
+          <mj-spacer height="70px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section
+      background-color="#dbbce8"
+      padding="0px 0px 8px 0px"
+      text-align="center"
+    >
+        <mj-column>
+          <mj-image
+            align="left"
+            alt="AC Redistribution: need an air conditioner? have an air conditioner to donate? have a car?"
+            border="none"
+            padding="0px 0px 0px 0px"
+            src="ac_crop.png"
+            target="_blank"
+            title=""
+          ></mj-image>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="16px 24px 8px 24px">
+      <mj-column>
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 12px 12px 12px"
+        >
+          <p
+            class="text-content text-content-dark"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            Hey neighbors,
+          </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            Bed-Stuy Strong is preparing for the summer heat. As we face more intense temperatures each summer, 
+            many folks still don’t have adequate resources to cool off due to neglectful landlords and governments.
+          </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin: 10px 0; margin-bottom: 10px"
+          >
+            Bed-Stuy Strong has rehomed hundreds of AC units to our neighbors in need of relief over the last six 
+            summers, and we’re at it again this year. You can support our efforts – <b>if you have an air conditioner 
+            you want to donate, need an air conditioner for your home, or have a car to transport air conditioners 
+            in Bed-Stuy</b>, please fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_JLmZlxwr6kXgo0ilDgMyZH1myboW20aFKp7DhfCnTY8dng/viewform" target="_blank" style="color: #626DCB">
+            <b>our 2026 AC Redistribution Form</b></a>. 
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#626DCB"
+      background-repeat="repeat"
+      full-width="full-width"
+      padding="36px 36px 36px 36px"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="10px"
+          padding-right="10px"
+          padding-top="0px"
+          padding="0px 10px 0px 10px"
+        >
+          <p class="text-content text-content-light" style="margin-top: 10px; margin-bottom: 10px">
+            IMPORTANT NOTE: We are a small group of neighbors coordinating this project, so we have chosen 
+            to focus our efforts on Bed-Stuy. If you live outside of Bed-Stuy and need assistance with air 
+            conditioning, try checking out the city’s 
+            <a href="https://access.nyc.gov/programs/cooling-assistance-benefit/" target="_blank" style="color: #ffffff">
+            Cooling Assistance Benefit</a> or reaching out to your <a href="https://mutualaid.nyc/resources-groups/" target="_blank" style="color: #ffffff">
+            local mutual aid group</a>. If your neighborhood doesn’t have an AC project yet, we’ve created a zine on 
+            how you might get started: check out <a href="https://drive.google.com/file/d/1D2hsFkAM4ur64YXhNBkdnh_yRZOky8Sv/view" target="_blank" style="color: #ffffff">
+            <em>HOW TO KEEP YOUR NEIGHBORHOOD COOL</em></a>.
+          </p>
+          <p class="text-content text-content-light" style="margin-top: 10px; margin-bottom: 10px">
+            <br />
+            If you’d like to join our coordination efforts, please reach out to #ac_organizing 
+            on Slack or <a href="mailto:hollenbeckskyler@gmail.com" target="_blank" style="color: #ffffff">
+            hollenbeckskyler@gmail.com</a> by email. 
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="24px 24px 24px 24px"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 10px 0px 10px"
+        >
+          <p class="text-content text-content-dark" style="margin-top: 10px; margin-bottom: 10px">
+            Venmo:
+            <a
+              href="https://account.venmo.com/u/bedstuystrong"
+              target="_blank"
+              style="color: #515557"
+            >
+              @bedstuystrong
+            </a>
+            <br />
+            Cashapp:
+            <a
+              href="https://cash.app/$bedstuystrong"
+              target="_blank"
+              style="color: #515557"
+            >
+              $bedstuystrong
+            </a>
+            <br />
+            Zelle: fund<span>@</span>bedstuystrong<span>.</span>com
+            <br /><br />
+            or
+            <a
+              href="https://www.bedstuystrong.com/donate-monthly"
+              target="_blank"
+              style="color: #515557"
+            >sign up to donate monthly</a> 💖
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#dbbce8"
+      padding="10px 30px 10px 30px"
+    >
+      <mj-group vertical-align="middle">
+        <mj-column vertical-align="middle" width="33%">
+          <mj-text
+            css-class="text-content text-content-dark"
+            font-family="Helvetica, Arial, sans-serif"
+            padding="0px 10px 0px 10px"
+          >
+            <p
+              class="text-content text-content-dark"
+              style="
+                text-align: left;
+                margin: 10px 0;
+              "
+            >
+              <b>Keep in touch</b>
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="67%">
+          <mj-include path="../../includes/social.mjml" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-include path="../../includes/footer.mjml" />
+  </mj-body>
+</mjml>

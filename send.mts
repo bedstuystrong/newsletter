@@ -26,22 +26,22 @@ const mjmlPath = path.resolve("content", `${emailName}/index.mjml`);
 let mjml = await fs.readFile(mjmlPath, { encoding: "utf-8" });
 
 const assets = (await fs.readdir(path.resolve("content", emailName))).filter(
-  (filename) => !filename.endsWith(".mjml")
+  (filename) => !filename.endsWith(".mjml"),
 );
 for (const assetName of assets) {
   mjml = mjml.replaceAll(
     `"${assetName}"`,
-    `"<%= it.static_url %>/${emailName}/${assetName}"`
+    `"<%= it.static_url %>/${emailName}/${assetName}"`,
   );
 }
 
-const { html, errors, json } = mjml2html(
+const { html, errors, json } = await mjml2html(
   mjml,
   makeOptions(mjmlPath, {
     include_footer: true,
     static_url: PRODUCTION_URL,
     permalink: `${PRODUCTION_URL}/${emailName}`,
-  })
+  }),
 );
 if (errors.length) {
   console.log(errors);
@@ -67,7 +67,7 @@ const createMessage = (to: string, test?: boolean) => ({
 });
 
 const postmarkClient = new postmark.ServerClient(
-  process.env.POSTMARK_SERVER_API_TOKEN!
+  process.env.POSTMARK_SERVER_API_TOKEN!,
 );
 const TEST_LIST = process.env.TEST_EMAIL_LIST?.split(",") ?? [];
 console.log("Test list:", TEST_LIST);
@@ -86,7 +86,7 @@ if (await confirm({ message: "Send test email?" })) {
     JSON.stringify(testResult),
     {
       encoding: "utf-8",
-    }
+    },
   );
 }
 
@@ -121,7 +121,7 @@ if (await confirm({ message: "Send real email?" })) {
     chunks.map(async (chunk) => {
       await sleep(5000);
       return await postmarkClient.sendEmailBatch(chunk);
-    })
+    }),
   );
 
   console.log(sendResult);
@@ -131,7 +131,7 @@ if (await confirm({ message: "Send real email?" })) {
     JSON.stringify(sendResult),
     {
       encoding: "utf-8",
-    }
+    },
   );
 }
 
