@@ -3,3 +3,6 @@ node_modules
 dist/
 # Local Netlify folder
 .netlify
+
+
+*-send-log-*.json

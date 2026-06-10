@@ -19,11 +19,6 @@
     src="<%= it.static_url %>/globe.png"
   ></mj-social-element>
   <mj-social-element
-    background-color="#3B5998"
-    href="https://www.facebook.com/bedstuystrong"
-    name="facebook-noshare"
-  ></mj-social-element>
-  <mj-social-element
     alt=""
     background-color="#d430ab"
     href="http://instagram.com/bedstuystrong/"
@@ -35,5 +30,10 @@
     href="https://bsky.app/profile/bedstuystrong.bsky.social"
     name="bluesky-noshare"
     src="<%= it.static_url %>/bluesky.png"
+  ></mj-social-element>
+  <mj-social-element
+    background-color="#3B5998"
+    href="https://www.facebook.com/bedstuystrong"
+    name="facebook-noshare"
   ></mj-social-element>
 </mj-social>

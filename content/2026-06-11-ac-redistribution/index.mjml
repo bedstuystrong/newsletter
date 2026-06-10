@@ -84,13 +84,13 @@
           ></mj-image>
         </mj-column>
         <mj-column width="70%" vertical-align="top">
-          <mj-spacer height="70px" />
+          <mj-spacer height="50px" />
         </mj-column>
       </mj-group>
     </mj-section>
     <mj-section
       background-color="#dbbce8"
-      padding="0px 0px 8px 0px"
+      padding="0px 0px 16px 0px"
       text-align="center"
     >
         <mj-column>
@@ -105,12 +105,12 @@
           ></mj-image>
         </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="16px 24px 8px 24px">
+    <mj-section background-color="#ffffff" padding="16px 24px 0px 24px">
       <mj-column>
         <mj-text
           css-class="text-content text-content-dark"
           font-family="Helvetica, Arial, sans-serif"
-          padding="0px 12px 12px 12px"
+          padding="0px 12px 8px 12px"
         >
           <p
             class="text-content text-content-dark"
@@ -133,9 +133,23 @@
             summers, and we’re at it again this year. You can support our efforts – <b>if you have an air conditioner 
             you want to donate, need an air conditioner for your home, or have a car to transport air conditioners 
             in Bed-Stuy</b>, please fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_JLmZlxwr6kXgo0ilDgMyZH1myboW20aFKp7DhfCnTY8dng/viewform" target="_blank" style="color: #626DCB">
-            <b>our 2026 AC Redistribution Form</b></a>. 
+            <b>our 2026 AC Redistribution Form</b></a>.
           </p>
         </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0px 24px 20px 24px">
+      <mj-column>
+        <mj-button 
+          background-color="#dbbce8" 
+          color="#36393a"
+          font-size="18px" 
+          font-family="Helvetica, Arial, sans-serif" 
+          font-weight="bold"
+          border-radius="8px"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd_JLmZlxwr6kXgo0ilDgMyZH1myboW20aFKp7DhfCnTY8dng/viewform"
+          target="_blank"
+        >AC Redistribution Form</mj-button>
       </mj-column>
     </mj-section>
     <mj-section
@@ -179,9 +193,22 @@
       <mj-column>
         <mj-text
           font-family="Helvetica, Arial, sans-serif"
-          padding="0px 10px 0px 10px"
+          padding="0px 10px 6px 10px"
         >
           <p class="text-content text-content-dark" style="margin-top: 10px; margin-bottom: 10px">
+            P.S. on <b>June 20th, we’ll be at Brower Park as part of the <a href="https://www.instagram.com/p/DZYaEpsHflN/" target="_blank" style="color: #626DCB">
+            June Balloon</a> children's festival</b>, with kid-sized KN95 masks and fun materials for all ages. Come say hi! 🎈✨
+          </p>
+        </mj-text>
+        <mj-divider border-width="2px" border-style="dotted" border-color="#dbbce8" />
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="6px 10px 0px 10px"
+        >
+          <p class="text-content text-content-dark" style="margin-top: 10px; margin-bottom: 10px">
+            Financial support is always appreciated, and is redistributed to our community through programs, events, and direct assistance.
+            <br />
+            <br />
             Venmo:
             <a
               href="https://account.venmo.com/u/bedstuystrong"
@@ -201,13 +228,13 @@
             </a>
             <br />
             Zelle: fund<span>@</span>bedstuystrong<span>.</span>com
-            <br /><br />
+            <br />
             or
             <a
               href="https://www.bedstuystrong.com/donate-monthly"
               target="_blank"
               style="color: #515557"
-            >sign up to donate monthly</a> 💖
+            >sign up to donate monthly</a>
           </p>
         </mj-text>
       </mj-column>
