@@ -27,20 +27,6 @@
           color-scheme: light dark;
           supported-color-schemes: light dark;
         }
-        .image-light-mode {
-          display: block;
-        }
-        .image-dark-mode {
-          display: none;
-        }
-        @media (prefers-color-scheme: dark) {
-          .image-light-mode {
-              display: none !important;
-          }
-          .image-dark-mode {
-              display: block !important;
-          }
-        }
       </style>
     </mj-raw>
   </mj-head>
@@ -82,7 +68,7 @@
     </mj-section>
     <mj-section
       background-color="#ffffff"
-      padding="18px 24px 6px 24px"
+      padding="36px 24px 6px 18px"
       text-align="center"
     >
       <mj-group vertical-align="top">
@@ -92,23 +78,10 @@
             alt="Bed-Stuy Strong logo"
             border="none"
             padding="0px 0px 0px 0px"
-            src="<%= it.static_url %>/bssc_logo_black.png"
+            src="<%= it.static_url %>/bssc_logo.png"
             target="_blank"
             title=""
-            css-class="image-light-mode"
           />
-          <!--[if !mso]><!-->
-          <mj-image
-            align="left"
-            alt="Bed-Stuy Strong logo"
-            border="none"
-            padding="0px 0px 0px 0px"
-            src="<%= it.static_url %>/bssc_logo_white.png"
-            target="_blank"
-            title=""
-            css-class="image-dark-mode"
-          />
-          <!--<![endif]-->
         </mj-column>
         <mj-column width="65%" vertical-align="top">
           <mj-spacer height="50px" />
@@ -508,7 +481,7 @@
       </mj-column>
     </mj-section>
     <mj-section 
-      background-color="linear-gradient(0deg, #1762AB 0%, rgb(9, 52, 110) 100%)"
+      background-color="linear-gradient(0deg, #1762AB, rgb(9, 52, 110))"
       full-width="full-width"
       padding="10px 0px 20px 0px"
     >
@@ -534,7 +507,7 @@
       </mj-column>
     </mj-section>
     <mj-section 
-      background-color="linear-gradient(0deg, rgb(37, 144, 232) 0%, #1762AB 100%)"
+      background-color="linear-gradient(0deg, rgb(37, 144, 232), #1762AB)"
       full-width="full-width"
       padding="60px 30px 20px 30px"
     >
