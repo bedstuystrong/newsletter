@@ -27,6 +27,20 @@
           color-scheme: light dark;
           supported-color-schemes: light dark;
         }
+        .image-light-mode {
+          display: block;
+        }
+        .image-dark-mode {
+          display: none;
+        }
+        @media (prefers-color-scheme: dark) {
+          .image-light-mode {
+              display: none !important;
+          }
+          .image-dark-mode {
+              display: block !important;
+          }
+        }
       </style>
     </mj-raw>
   </mj-head>
@@ -81,7 +95,20 @@
             src="<%= it.static_url %>/bssc_logo_black.png"
             target="_blank"
             title=""
-          ></mj-image>
+            css-class="image-light-mode"
+          />
+          <!--[if !mso]><!-->
+          <mj-image
+            align="left"
+            alt="Bed-Stuy Strong logo"
+            border="none"
+            padding="0px 0px 0px 0px"
+            src="<%= it.static_url %>/bssc_logo_white.png"
+            target="_blank"
+            title=""
+            css-class="image-dark-mode"
+          />
+          <!--<![endif]-->
         </mj-column>
         <mj-column width="65%" vertical-align="top">
           <mj-spacer height="50px" />
