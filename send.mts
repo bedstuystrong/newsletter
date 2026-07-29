@@ -10,9 +10,21 @@ import { confirm } from "@inquirer/prompts";
 import { makeOptions } from "./mjml.mts";
 import AirtableBase from "./airtable.mts";
 
-const { positionals } = parseArgs({ allowPositionals: true });
+const { values, positionals } = parseArgs({
+  options: {
+    test: {
+      type: "boolean",
+      short: "t",
+    },
+  },
+  allowPositionals: true,
+});
 const emailName = positionals[0];
 if (!emailName) throw new Error("Email name required");
+
+if (values.test) {
+  console.log("Test mode, disabling full send");
+}
 
 try {
   await fs.access(path.resolve("content", emailName));
@@ -58,7 +70,7 @@ const text = htmlToText(html);
 
 const createMessage = (to: string, test?: boolean) => ({
   To: to,
-  From: "Bed-Stuy Strong <bedstuystrong@bedstuystrong.com>",
+  From: "Bed-Stuy Survival Collective (Bed-Stuy Strong) <bedstuystrong@bedstuystrong.com>",
   Subject: test ? `[test] ${subject}` : subject,
   HtmlBody: html,
   TextBody: text,
@@ -88,6 +100,10 @@ if (await confirm({ message: "Send test email?" })) {
       encoding: "utf-8",
     },
   );
+}
+
+if (values.test) {
+  process.exit();
 }
 
 if (await confirm({ message: "Send real email?" })) {

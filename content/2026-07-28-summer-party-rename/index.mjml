@@ -1,0 +1,540 @@
+<mjml dir="ltr" lang="en" owa="desktop" version="4.14.1">
+  <!-- Based on Mailjet's "New Year Newsletter" template -->
+  <mj-head>
+    <mj-title>SUMMER PARTY 8/23 🌞 and other updates 💛</mj-title>
+    <mj-preview>clothing donations, how to support, and why we changed our name</mj-preview>
+    <mj-style inline="inline">
+      a {
+        text-decoration: underline;
+      } 
+      .text-content { 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 16px; 
+        line-height: 1.5; 
+      }
+      .text-content-dark {
+        color: #3b3e40;
+      } 
+      .text-content-light {
+        color: #ffffff;
+      }
+    </mj-style>
+    <mj-raw>
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" content="light dark" />
+      <style type="text/css">
+        :root {
+          color-scheme: light dark;
+          supported-color-schemes: light dark;
+        }
+      </style>
+    </mj-raw>
+  </mj-head>
+  <mj-body background-color="#F2F2F2">
+    <mj-section padding="0px 0px 0px 0px" text-align="center">
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="4px 10px 4px 10px"
+        >
+          <p style="text-align: center; margin: 10px 0">
+            <span
+              style="
+                line-height: 23px;
+                letter-spacing: normal;
+                font-size: 14px;
+                color: #3b3e40;
+                text-align: left;
+                font-family: Arial;
+              "
+              >July 2026 &nbsp;|&nbsp;
+            </span>
+            <a href="<%= it.permalink %>" target="_blank">
+              <span
+                style="
+                  line-height: 23px;
+                  letter-spacing: normal;
+                  font-size: 14px;
+                  color: #626DCB;
+                  font-family: Arial;
+                "
+              >
+                <b><u>View in your browser</u></b>
+              </span>
+            </a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="18px 24px 6px 24px"
+      text-align="center"
+    >
+      <mj-group vertical-align="top">
+        <mj-column width="35%" vertical-align="middle">
+          <mj-image
+            align="left"
+            alt="Bed-Stuy Strong logo"
+            border="none"
+            padding="0px 0px 0px 0px"
+            src="<%= it.static_url %>/bssc_logo_black.png"
+            target="_blank"
+            title=""
+          ></mj-image>
+        </mj-column>
+        <mj-column width="65%" vertical-align="top">
+          <mj-spacer height="50px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section 
+      background-color="#ffffff"
+      padding="12px 12px 12px 12px"
+    >
+      <mj-column border="3px dotted #ffa9e0" border-radius="5px">
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          padding="12px 18px 12px 18px"
+        >
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 0; margin-bottom: 0;"
+          >
+            ICYMI: Bed-Stuy Strong changed our name. We are now the Bed-Stuy Survival 
+            Collective – more details on that later in this email ✨
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    </mj-section>
+    <mj-section
+      padding="0px 0px 0px 0px"
+      text-align="center"
+    >
+      <mj-column>
+        <mj-image
+          align="left"
+          alt="AC Redistribution: need an air conditioner? have an air conditioner to donate? have a car?"
+          border="none"
+          padding="0px 0px 0px 0px"
+          src="summer_flyer.png"
+          href=""
+          target="_blank"
+          title=""
+        ></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="16px 24px 0px 24px">
+      <mj-column>
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 12px 8px 12px"
+        >
+          <h2
+            class="text-content text-content-dark"
+            style="font-size: 22px; margin-top: 16px; margin-bottom: 16px"
+          >
+            BED-STUY, YOU'RE INVITED ☀️
+          </h2>
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            Join the Bed-Stuy Survival Collective (formerly Bed-Stuy Strong) at our sixth annual Summer Party on Sunday, 
+            August 23rd from 2 – 6 pm.
+          </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            We will be at Herbert von King with music from 
+            <a href="https://www.instagram.com/actuatordj"  target="_blank" style="color: #626DCB">Actuator</a>, 
+            seasonal produce in partnership with 
+            <a href="https://brooklynsupportedagriculture.com/" target="_blank" style="color: #626DCB">Brooklyn Supported Agriculture</a>, 
+            hot food, a kids activity area, 
+            free books from <a href="https://thenonbinarian.gay/" target="_blank" style="color: #626DCB">The Nonbinarian Book Bike</a>, 
+            a free people’s store with a clothing swap, and more.
+          </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            Throughout the party, we will also be hosting various skillshares + health screenings including a Herbs 
+            for Grief workshop, narcan training, a mending table, and so much more. The full schedule of party offerings 
+            will be released soon! 
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0px 24px 20px 24px">
+      <mj-column>
+        <mj-button 
+          background-color="#84ce5e" 
+          color="#000000"
+          font-size="18px" 
+          font-family="Helvetica, Arial, sans-serif" 
+          font-weight="bold"
+          border-radius="8px"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScOWgS0wnPWSf074JWlc5wJ8BcQc03VU0bir0JVQ93d3Uj3KQ/viewform"
+          target="_blank"
+        >Volunteer</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#fee498"
+      full-width="full-width"
+      padding="36px 36px 24px 36px"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="10px"
+          padding-right="10px"
+          padding-top="0px"
+          padding="0px 10px 0px 10px"
+        >
+          <h2
+            class="text-content text-content-dark"
+            style="font-size: 22px; margin-top: 16px; margin-bottom: 16px"
+          >
+            SUPPORT THE SUMMER PARTY 💖
+          </h2>
+          <h3
+            class="text-content text-content-dark"
+            style="font-size: 18px; margin-top: 30px; margin-bottom: 10px"
+          >
+            1. Buy your neighbor a bag of fresh groceries! 
+          </h3>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            We are hoping to raise another $5,000 to help us feed at least 200 people. 
+            <br /><br />
+            Donate to us with the note <b>“summer party”</b>:<br />
+            Venmo:
+            <a
+              href="https://account.venmo.com/u/bedstuystrong"
+              target="_blank"
+              style="color: #3b3e40"
+            >
+              @bedstuystrong
+            </a>
+            <br />
+            Cash App:
+            <a
+              href="https://cash.app/$bedstuystrong"
+              target="_blank"
+              style="color: #3b3e40"
+            >
+              $bedstuystrong
+            </a>
+            <br />
+            Zelle: fund<span>@</span>bedstuystrong<span>.</span>com
+            
+          </p>
+          <h3
+            class="text-content text-content-dark"
+            style="font-size: 18px; margin-top: 30px; margin-bottom: 10px"
+          >
+            2. Donate used clothing and other essential items! 
+          </h3>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            Drop off your donated items at <a href="https://maps.app.goo.gl/j2APmdWYHgQf1YKD7" target="_blank" style="color: #3b3e40">1320 Fulton Street</a>. 
+            We'll be there:
+          </p>
+          <ul class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            <li>Thursday 7/30 from 4-8 pm</li>
+            <li>Monday 8/3 from 4-8 pm</li>
+            <li>Saturday 8/15 from 8 am-12 pm</li>
+          </ul>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            We are accepting:
+          </p>
+          <ul class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            <li>used clothing items, fresh direct/reusable grocery bags, working AC units</li>
+            <li>new unopened diapers (any size), baby formula and wipes, sunscreen, paper towels, toilet paper, laundry detergent, pads and tampons, condoms, clorox wipes, toothbrushes and toothpaste, Ibuprofen, deodorant, and school supplies</li> 
+            <li><em>please do not drop off any unapproved items</em></li>
+          </ul>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            If you can’t make it in person but would still like to donate an item, consider purchasing 
+            something off our <a href="https://www.target.com/gift-registry/gift-giver?registryId=322ccbe0-74e7-11f1-9d0d-318eef893aa4&type=CUSTOM" target="_blank" style="color: #3b3e40">
+            baby essentials registry</a>. It will get shipped directly to us! 
+          </p>
+          <h3
+            class="text-content text-content-dark"
+            style="font-size: 18px; margin-top: 30px; margin-bottom: 10px"
+          >
+            3. Volunteer 8/23! Complete our <a href="https://docs.google.com/forms/d/e/1FAIpQLScOWgS0wnPWSf074JWlc5wJ8BcQc03VU0bir0JVQ93d3Uj3KQ/viewform" target="_blank" style="color: #3b3e40">
+            volunteer sign up form</a>. 
+          </h3>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            We need hands! And drivers! Come hangout, enjoy all the party offerings, and complete a volunteer shift while you’re there! 
+            If you complete the volunteer form, an organizer will contact you in August with more details. 
+          </p>
+
+          <h3
+            class="text-content text-content-dark"
+            style="font-size: 18px; margin-top: 30px; margin-bottom: 0px"
+          >
+            4. Consider organizing your very own mini-fundraiser!
+          </h3>
+        </mj-text>
+        <mj-image
+          align="center"
+          alt="TODO"
+          border="none"
+          padding="0px 0px 0px 0px"
+          src="fundraiser_ideas.png"
+          target="_blank"
+          title=""
+        />
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="10px"
+          padding-right="10px"
+          padding-top="0px"
+          padding="0px 10px 0px 10px"
+        >
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            There’s lots of ways to help us raise funds! Pick something that’s special to you or just use the 
+            resources you’ve got. You can ask people to pay us directly or collect the funds yourself and send them 
+            to us if that’s easier. Let us know what you’re planning and we can share it on our social media! 
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="24px 24px 24px 24px"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 10px 0px 10px"
+        >
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            Bed-Stuy Survival Collective (fka Bed-Stuy Strong) believes that relationships are what keep us alive. As we face deepened repression from the state, 
+            it is important to share our skills, our time, and our resources. Our survival as a community depends on it. We invite you to 
+            join us in celebrating six years of BSSC, working to center care and mutuality over profit and individualism. 
+            All party offerings are free, while supplies last.
+          </p>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            Extra seating available by asking a BSSC volunteer. <br />
+            Masks required & provided. <br />
+            See you there! 
+          </p>
+          <p class="text-content text-content-dark" style="font-weight: bold; margin-top: 16px; margin-bottom: 16px">
+            Bed-Stuy Survival Collective (fka BSS) Annual Summer Party<br />
+            Sunday, August 23rd from 2-6 pm<br />
+            Herbert Von King Park (Marcy & Greene)
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#09346e"
+      full-width="full-width"
+      padding="18px 0px 0px 0px"
+    >
+      <mj-column>
+        <mj-image
+          align="center"
+          alt="Bed-Stuy Strong is now... Bed-Stuy Survival Collective (followed by a collage of photos from our events and our reading group titles)"
+          border="none"
+          padding="0px 0px 0px 0px"
+          src="bssc2.png"
+          title=""
+        />
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="18px"
+          padding-right="18px"
+          padding-top="0px"
+          padding="0px 18px 0px 18px"
+        >
+          <p
+            class="text-content text-content-light"
+            style="text-align: center; margin-top: 30px; margin-bottom: 20px"
+          >
+            ICYMI: Bed-Stuy Strong changed our name. <br /> We are now Bed-Stuy Survival Collective.
+          <p>
+          <h4
+            class="text-content text-content-light"
+            style="font-size: 18px; text-align: center; margin-top: 30px; margin-bottom: 10px"
+          >
+            How We Started
+          </h4>
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px">
+            Bed-Stuy Strong began in response to the COVID-19 pandemic, as an online community hub and crisis response effort. 
+            Neighbors in Bed-Stuy came together to get each other groceries, masks, and access to vaccines, building connections 
+            during a time of isolation. It was a beautiful collective effort that gave us a glimpse of a radical future. 
+            But we were reacting to a crisis, not organizing for the long haul. This was a learning experience for us, 
+            pushing us towards our dream of collective liberation. Since 2021, we have focused on practicing sustainable 
+            mutual aid, which requires us to study our material conditions in order to change them. 
+          </p>
+          <h4
+            class="text-content text-content-light"
+            style="font-size: 18px; text-align: center; margin-top: 30px; margin-bottom: 10px"
+          >
+            Name Change
+          </h4>
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px">
+            The make up of our network has changed a lot over the last few years. Both longtime organizers and newer members have 
+            increasingly felt that our old moniker was not a good representation of who we were and what our work is.
+          </p>
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px">
+            While some of our members are born and raised Bed-Stuy residents, some of us are not. #bedstuystrong is 
+            a pride hashtag that pre-dates our organization. Our new name describes the work we do with more clarity, 
+            while better respecting the culture and history of our neighbors in Bed-Stuy. 
+          </p>
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px">
+            We appreciate all the collaboration and support we have experienced during our first six years as Bed-Stuy Strong and
+             we’re so excited to be a part of this neighborhood now as Bed-Stuy Survival Collective.
+          </p>
+          <h4
+            class="text-content text-content-light"
+            style="font-size: 18px; text-align: center; margin-top: 30px; margin-bottom: 10px"
+          >
+            Membership
+          </h4>
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px">
+            In May of this year, our collective launched a new membership model as a result of years of working and 
+            reflecting together. We’ve been slowly onboarding active community members through this updated process 
+            ever since. This membership model provides a renewed structure to our organizing practices as a mutual aid network. 
+          </p>
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px">
+            We made this decision because we believe emergency response and material redistribution are not mutual 
+            aid alone. This practice requires political struggle, relationship building, reciprocity, real commitment, 
+            and the survival of its practitioners. Our new model embodies that.
+          </p>
+          <h4
+            class="text-content text-content-light"
+            style="font-size: 18px; text-align: center; margin-top: 30px; margin-bottom: 10px"
+          >
+            Food Security Program 
+          </h4>
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px">
+            Also in May, we launched our new membership-based Food Security Program. The Food Security Program is a
+            monthly CSA share that provides fresh produce, cooking essentials, and pantry items to members of Bed-Stuy 
+            Survival Collective on a pay-what-you-can basis. The Food Security Program is solely supported by its 
+            participants, and is in collaboration with our friends in this work since 2020, the Brooklyn Packers.
+          </p>
+          <h4
+            class="text-content text-content-light"
+            style="font-size: 18px; text-align: center; margin-top: 30px; margin-bottom: 10px"
+          >
+            What’s Next? 
+          </h4>
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px">
+            In the beginning stages of this process, organizers are prioritizing onboarding our active volunteer 
+            + membership base. If that’s you, you’ll hear from an organizer directly.
+          </p>
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px">
+            We are rolling out this program in relation to our network’s capacity to maintain real connections 
+            with all members – to be intentional and to build something that can last.You can expect to see our name 
+            change slowly across our internet and in-person presence. We appreciate your patience! We hope to share 
+            more public information on onboarding opportunities in early 2027. 
+          </p>
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px">
+            Our AC Redistribution program is live. If you have an AC to donate, a car to transport a unit, 
+            or need one for your home, complete our AC Redistribution intake form. 
+          </p>
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 24px">
+            We are not adding new members to our Slack at this time. To connect, email 
+            <a href="mailto:bedstuystrong@bedstuystrong.com" style="color: #ffffff">bedstuystrong@bedstuystrong.com</a>.
+          </p>
+        </mj-text>
+        <mj-divider border-width="2px" border-style="dotted" border-color="#ffffff" />
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="18px"
+          padding-right="18px"
+          padding-top="0px"
+          padding="0px 18px 0px 18px"
+        >
+          <h3
+            class="text-content text-content-light"
+            style="font-size: 22px; text-align: center; margin-top: 20px; margin-bottom: 10px"
+          >
+            Reintroducing ourselves: <br />Bed-Stuy Survival Collective
+          </h3>
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px">
+            Our approach to mutual aid is inspired by Bed-Stuy’s ongoing legacy of community organizing and by the survival 
+            programs of the Black Panther Party, the Young Lords, and abolitionist societies. It is shaped by the political 
+            context of the neighborhood and world today, particularly the crises of the ongoing COVID-19 pandemic and accelerating 
+            gentrification. 
+          </p>
+        </mj-text>
+        <mj-image
+          align="center"
+          alt="Some of what we do: political education, food distro, material redistribution, masks & COVID tests, skillshares"
+          border="none"
+          padding="20px 30px 10px 30px"
+          src="bssc_bubbles.png"
+          title=""
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section 
+      background-color="linear-gradient(0deg, #1762AB 0%, rgb(9, 52, 110) 100%)"
+      full-width="full-width"
+      padding="10px 0px 20px 0px"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="18px"
+          padding-right="18px"
+          padding-top="0px"
+          padding="0px 18px 0px 18px"
+        >
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px">
+            To us, mutual aid is a practice of building lasting relationships. It enables us to meet each other’s needs while 
+            also collectively interrogating why these needs aren’t being met. Community is foundational to the human experience, 
+            and mutual aid allows us to collectively build political power towards liberation in spite of the oppressive systems 
+            we live under.
+          </p>
+          <p class="text-content text-content-light" style="text-align: center; margin-top: 24px">
+            💖
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section 
+      background-color="linear-gradient(0deg, rgb(37, 144, 232) 0%, #1762AB 100%)"
+      full-width="full-width"
+      padding="60px 30px 20px 30px"
+    >
+      <mj-group vertical-align="middle">
+        <mj-column vertical-align="middle" width="33%">
+          <mj-text
+            css-class="text-content text-content-dark"
+            font-family="Helvetica, Arial, sans-serif"
+            padding="0px 10px 0px 10px"
+          >
+            <p
+              class="text-content text-content-light"
+              style="
+                color: #ffffff;
+                text-align: left;
+                margin: 10px 0;
+              "
+            >
+              <b>Keep in touch</b>
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="67%">
+          <mj-include path="../../includes/social.mjml" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-include path="../../includes/footer.mjml" />
+  </mj-body>
+</mjml>
