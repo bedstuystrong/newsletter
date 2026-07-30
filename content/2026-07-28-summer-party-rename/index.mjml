@@ -102,7 +102,7 @@
             class="text-content text-content-dark"
             style="margin-top: 0; margin-bottom: 0;"
           >
-            ICYMI: Bed-Stuy Strong changed our name. We are now the Bed-Stuy Survival 
+            ICYMI: Bed-Stuy Strong changed our name. We are now Bed-Stuy Survival 
             Collective – more details on that later in this email ✨
           </p>
         </mj-text>
@@ -143,19 +143,19 @@
             class="text-content text-content-dark"
             style="margin-top: 16px; margin-bottom: 16px"
           >
-            Join the Bed-Stuy Survival Collective (formerly Bed-Stuy Strong) at our sixth annual Summer Party on Sunday, 
-            August 23rd from 2 – 6 pm.
+            Join Bed-Stuy Survival Collective (formerly Bed-Stuy Strong) at our sixth annual Summer Party on Sunday, 
+            August 23rd from 2–6 pm.
           </p>
           <p
             class="text-content text-content-dark"
             style="margin-top: 16px; margin-bottom: 16px"
           >
             We will be at Herbert von King with music from 
-            <a href="https://www.instagram.com/actuatordj"  target="_blank" style="color: #626DCB">Actuator</a>, 
+            <a href="https://www.instagram.com/actuatordj"  target="_blank" style="color: #4e9f24">Actuator</a>, 
             seasonal produce in partnership with 
-            <a href="https://brooklynsupportedagriculture.com/" target="_blank" style="color: #626DCB">Brooklyn Supported Agriculture</a>, 
+            <a href="https://brooklynsupportedagriculture.com/" target="_blank" style="color: #4e9f24">Brooklyn Supported Agriculture</a>, 
             hot food, a kids activity area, 
-            free books from <a href="https://thenonbinarian.gay/" target="_blank" style="color: #626DCB">The Nonbinarian Book Bike</a>, 
+            free books from <a href="https://thenonbinarian.gay/" target="_blank" style="color: #4e9f24">The Nonbinarian Book Bike</a>, 
             a free people’s store with a clothing swap, and more.
           </p>
           <p
@@ -180,7 +180,7 @@
           border-radius="8px"
           href="https://docs.google.com/forms/d/e/1FAIpQLScOWgS0wnPWSf074JWlc5wJ8BcQc03VU0bir0JVQ93d3Uj3KQ/viewform"
           target="_blank"
-        >Volunteer</mj-button>
+        >Sign up to volunteer</mj-button>
       </mj-column>
     </mj-section>
     <mj-section
@@ -209,11 +209,30 @@
           >
             1. Buy your neighbor a bag of fresh groceries! 
           </h3>
+        </mj-text>
+        <mj-image
+          align="center"
+          alt="progress bar labelled: 30% raised towards feeding 200 people"
+          border="none"
+          padding="0px 0px 0px 0px"
+          src="groceries_progress.png"
+          target="_blank"
+          title=""
+        />
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="10px"
+          padding-right="10px"
+          padding-top="0px"
+          padding="0px 10px 0px 10px"
+        >
+
           <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
-            We are hoping to raise another $5,000 to help us feed at least 200 people. 
+            We're at 30% of our goal! We're hoping to raise another $7,000 to help us feed at least 200 people. 
             <br /><br />
             Donate to us with the note <b>“summer party”</b>:<br />
-            Venmo:
+            <b>Venmo:</b>
             <a
               href="https://account.venmo.com/u/bedstuystrong"
               target="_blank"
@@ -222,7 +241,7 @@
               @bedstuystrong
             </a>
             <br />
-            Cash App:
+            <b>Cash App:</b>
             <a
               href="https://cash.app/$bedstuystrong"
               target="_blank"
@@ -231,7 +250,7 @@
               $bedstuystrong
             </a>
             <br />
-            Zelle: fund<span>@</span>bedstuystrong<span>.</span>com
+            <b>Zelle:</b> fund<span>@</span>bedstuystrong<span>.</span>com
             
           </p>
           <h3
@@ -245,9 +264,9 @@
             We'll be there:
           </p>
           <ul class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
-            <li>Thursday 7/30 from 4-8 pm</li>
-            <li>Monday 8/3 from 4-8 pm</li>
-            <li>Saturday 8/15 from 8 am-12 pm</li>
+            <li>Thursday 7/30 from 4–8 pm</li>
+            <li>Monday 8/3 from 4–8 pm</li>
+            <li>Saturday 8/15 from 8 am–12 pm</li>
           </ul>
           <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
             We are accepting:
@@ -283,7 +302,7 @@
         </mj-text>
         <mj-image
           align="center"
-          alt="TODO"
+          alt="3 sun shapes with text. 1. time to declutter? raffle off a unique item! 2. host a party and donate ticket sales 3. organize a bake sale or lemonade stand on your block"
           border="none"
           padding="0px 0px 0px 0px"
           src="fundraiser_ideas.png"
@@ -302,6 +321,16 @@
             There’s lots of ways to help us raise funds! Pick something that’s special to you or just use the 
             resources you’ve got. You can ask people to pay us directly or collect the funds yourself and send them 
             to us if that’s easier. Let us know what you’re planning and we can share it on our social media! 
+          </p>
+          <h3
+            class="text-content text-content-dark"
+            style="font-size: 18px; margin-top: 30px; margin-bottom: 0px"
+          >
+            5. Keep spreading the word!
+          </h3>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            Share our fundraising and collection posts on <a href="http://instagram.com/bedstuystrong/" target="_blank" style="color: #3b3e40">
+            Instagram</a> and make sure to tell your friends and family!
           </p>
         </mj-text>
       </mj-column>
