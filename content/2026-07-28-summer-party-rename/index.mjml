@@ -116,11 +116,11 @@
       <mj-column>
         <mj-image
           align="left"
-          alt="AC Redistribution: need an air conditioner? have an air conditioner to donate? have a car?"
+          alt="flyer over a photo of people dancing at previous summer party. Sun Aug 23, 2-6 PM / Herbert Von King Park (Marcy/Greene Ave) / celebrating our survival collective: summer party / skillshares, groceries, covid tests, music, books, harm reduction, zines, political education, free store, clothing share, hot food, kids table, and more! / free to all while supplies last, masks required and PPE provided, rain date Aug 30"
           border="none"
           padding="0px 0px 0px 0px"
           src="summer_flyer.png"
-          href=""
+          href="https://www.instagram.com/p/DbdkXJBFv4b/"
           target="_blank"
           title=""
         ></mj-image>
@@ -264,7 +264,6 @@
             We'll be there:
           </p>
           <ul class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
-            <li>Thursday 7/30 from 4–8 pm</li>
             <li>Monday 8/3 from 4–8 pm</li>
             <li>Saturday 8/15 from 8 am–12 pm</li>
           </ul>
@@ -357,7 +356,7 @@
           </p>
           <p class="text-content text-content-dark" style="font-weight: bold; margin-top: 16px; margin-bottom: 16px">
             Bed-Stuy Survival Collective (fka BSS) Annual Summer Party<br />
-            Sunday, August 23rd from 2-6 pm<br />
+            Sunday, August 23rd from 2–6 pm (rain date August 30th)<br />
             Herbert Von King Park (Marcy & Greene)
           </p>
         </mj-text>
