@@ -1,0 +1,167 @@
+# CrawlerCheck AI
+AI2Bot
+Disallow: /
+Ai2Bot-Dolma
+Disallow: /
+Big-Sur-AI
+Disallow: /
+ChatGPT-Operator
+Disallow: /
+ChatGPT-User
+Disallow: /
+Claude-Code
+Disallow: /
+Claude-User
+Disallow: /
+ClaudeBot
+Disallow: /
+DeepSeekBot
+Disallow: /
+DigitalOceanGenAICrawler
+Disallow: /
+Duckassistbot
+Disallow: /
+GPTBot
+Disallow: /
+Google-Extended
+Disallow: /
+Grok
+Disallow: /
+GrokBot
+Disallow: /
+Liner Bot
+Disallow: /
+MistralAI-User
+Disallow: /
+MyCentralAIScraperBot
+Disallow: /
+PanguBot
+Disallow: /
+Perplexity-User
+Disallow: /
+PerplexityBot
+Disallow: /
+SBIntuitionsBot
+Disallow: /
+YouBot
+Disallow: /
+anthropic-ai
+Disallow: /
+cohere-ai
+Disallow: /
+cohere-training-data-crawler
+Disallow: /
+img2dataset
+Disallow: /
+quillbot-com
+Disallow: /
+
+# KnownAgents AI Data Scrapers
+Amazonbot
+Disallow: /
+Applebot-Extended
+Disallow: /
+bedrockbot
+Disallow: /
+Bytespider
+Disallow: /
+CCBot
+Disallow: /
+ChatGLM-Spider
+Disallow: /
+CloudVertexBot
+Disallow: /
+CohereBot
+Disallow: /
+Cotoyogi
+Disallow: /
+Datenbank Crawler
+Disallow: /
+Doubaobot
+Disallow: /
+ERNIEBot
+Disallow: /
+FacebookBot
+Disallow: /
+GoogleOther
+Disallow: /
+ICC-Crawler
+Disallow: /
+imageSpider
+Disallow: /
+Kangaroo Bot
+Disallow: /
+KimiBot
+Disallow: /
+KimiCrawler
+Disallow: /
+laion-huggingface-processor
+Disallow: /
+LCC
+Disallow: /
+meta-externalagent
+Disallow: /
+micro-crawl
+Disallow: /
+MistralBot
+Disallow: /
+MoonshotBot
+Disallow: /
+MoonSpider
+Disallow: /
+netEstate Imprint Crawler
+Disallow: /
+omgili
+Disallow: /
+peer39_crawler
+Disallow: /
+QwenBot
+Disallow: /
+SalamandraVLM
+Disallow: /
+Spider
+Disallow: /
+Timpibot
+Disallow: /
+VelenPublicWebCrawler
+Disallow: /
+webzio-extended
+Disallow: /
+
+# KnownAgents AI Data Providers
+AIWebIndex
+Disallow: /
+ApifyBot
+Disallow: /
+ApifyWebsiteContentCrawler
+Disallow: /
+Bravebot
+Disallow: /
+Brightbot
+Disallow: /
+CragCrawler
+Disallow: /
+Crawlspace
+Disallow: /
+Diffbot
+Disallow: /
+ExaBot
+Disallow: /
+FirecrawlAgent
+Disallow: /
+HenkBot
+Disallow: /
+Mozilla-Tabstack
+Disallow: /
+Querit-SearchBot
+Disallow: /
+QueritBot
+Disallow: /
+ShapBot
+Disallow: /
+TavilyBot
+Disallow: /
+Terra Cotta
+Disallow: /
+TerraCotta
+Disallow: /
