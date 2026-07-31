@@ -368,6 +368,9 @@
       padding="18px 0px 0px 0px"
     >
       <mj-column>
+        <mj-raw> 
+          <div id="bssc"></div>
+        </mj-raw>
         <mj-image
           align="center"
           alt="Bed-Stuy Strong is now... Bed-Stuy Survival Collective (followed by a collage of photos from our events and our reading group titles)"
