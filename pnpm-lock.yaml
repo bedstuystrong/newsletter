@@ -35,6 +35,9 @@ importers:
       postmark:
         specifier: ^4.0.5
         version: 4.0.7
+      throttled-queue:
+        specifier: ^3.0.0
+        version: 3.0.0
       tiny-invariant:
         specifier: ^1.3.3
         version: 1.3.3
@@ -4617,6 +4620,9 @@ packages:
   thread-stream@4.2.0:
     resolution: {integrity: sha512-e2zZ96wSChazBsbENf/Pcm/4swHt2cEKQ92rhUjkL9GCKiTDJIaTBenjE/m9DXi0QBmTMDkFDdOomUy20A1tDQ==}
     engines: {node: '>=20'}
+
+  throttled-queue@3.0.0:
+    resolution: {integrity: sha512-8X5YUdgDHaqy9DmJzoRWK45o2vzBZ7Rt4bT1Mody4TUuYOXSb7paRwDPVspCZiiW4rxZopgZQAwnhI2LU0QwFQ==}
 
   through2@2.0.5:
     resolution: {integrity: sha512-/mrRod8xqpA+IHSLyGCQ2s8SPHiCDEeQJSep1jqLYeEUClOFG2Qsh+4FU6G9VeqpZnGW/Su8LQGc4YKni5rYSQ==}
@@ -10375,6 +10381,8 @@ snapshots:
   thread-stream@4.2.0:
     dependencies:
       real-require: 1.0.0
+
+  throttled-queue@3.0.0: {}
 
   through2@2.0.5:
     dependencies:

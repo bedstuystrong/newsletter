@@ -6,3 +6,5 @@ dist/
 
 
 *-send-log-*.json
+spam-notifications*.json
+spam-resend*.json

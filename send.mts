@@ -6,6 +6,7 @@ import mjml2html from "mjml";
 import postmark, { Message } from "postmark";
 import { htmlToText } from "html-to-text";
 import { confirm } from "@inquirer/prompts";
+import { throttledQueue, minutes } from "throttled-queue";
 
 import { makeOptions } from "./mjml.mts";
 import AirtableBase from "./airtable.mts";
@@ -117,27 +118,43 @@ if (await confirm({ message: "Send real email?" })) {
       })
       .all()
   ).map((record) => contactsTable.normalize(record).email);
+  // const contacts: string[] = JSON.parse(
+  //   await fs.readFile("spam-resend-2026-08-03.json", { encoding: "utf-8" }),
+  // );
 
   console.log(`Found ${contacts.length} contacts`);
 
   const messages = contacts.map((toEmail) => createMessage(toEmail));
+
+  const chunkSize = 200;
+  const intervalMinutes = 2;
+  const throttle = throttledQueue({
+    maxPerInterval: 1,
+    interval: minutes(intervalMinutes),
+  });
+
   const chunks: Message[][] = [];
 
   const START_INDEX = 0;
   messages.splice(0, START_INDEX);
 
   while (messages.length > 0) {
-    const chunk = messages.splice(0, 500);
+    const chunk = messages.splice(0, chunkSize);
     chunks.push(chunk);
   }
 
-  console.log(`Sending in ${chunks.length} chunks of 500`);
+  console.log(
+    `Sending in ${chunks.length} chunks of ${chunkSize} every ${intervalMinutes} minutes`,
+  );
 
   const sendResult = await Promise.allSettled(
-    chunks.map(async (chunk) => {
-      await sleep(5000);
-      return await postmarkClient.sendEmailBatch(chunk);
-    }),
+    chunks.map((chunk, index) =>
+      throttle(() => {
+        console.log(`Sending chunk ${index}/${chunks.length}`);
+        console.log(chunk.map((message) => message.To).slice(0, 2));
+        return postmarkClient.sendEmailBatch(chunk);
+      }),
+    ),
   );
 
   console.log(sendResult);
