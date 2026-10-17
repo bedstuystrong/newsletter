@@ -102,8 +102,14 @@
             class="text-content text-content-dark"
             style="margin-top: 0; margin-bottom: 0;"
           >
-            ICYMI: Bed-Stuy Strong changed our name. We are now Bed-Stuy Survival 
-            Collective – more details on that later in this email ✨
+            Hi neighbors,
+          </p>
+          <p>
+            Bed-Stuy Survival Collective (formerly Bed-Stuy Strong) is fundraising to feed at least 150 households this November during our annual Fall Harvest event. You can support us by donating now to help buy your neighbor a turkey (and fresh produce). 🥕
+          </p>
+          <p>
+            $40 covers one large turkey, $60 covers a turkey and sides, but any amount at all is welcome.
+
           </p>
         </mj-text>
       </mj-column>
@@ -116,11 +122,11 @@
       <mj-column>
         <mj-image
           align="left"
-          alt="flyer over a photo of people dancing at previous summer party. Sun Aug 23, 2-6 PM / Herbert Von King Park (Marcy/Greene Ave) / celebrating our survival collective: summer party / skillshares, groceries, covid tests, music, books, harm reduction, zines, political education, free store, clothing share, hot food, kids table, and more! / free to all while supplies last, masks required and PPE provided, rain date Aug 30"
+          alt="flyer sage green background with yellow text stating BUY YOUR NEIGHBOR A TURKEY. a rendering of a turkey with text $40 BUYS ONE LARGE TURKEY $60 BUYS A TURKEY + SIDES. bottom is yellow with black text VENMO: @BEDSTUYSTRONG CASHAPP: $BEDSTUYSTRONG Zelle: FUND@BEDSTUYSTRONG.COM MENTION 'FALL HARVEST' Bed Stuy Survival Collective logo"
           border="none"
           padding="0px 0px 0px 0px"
-          src="summer_flyer.png"
-          href="https://www.instagram.com/p/DbdkXJBFv4b/"
+          src="turkey_graphic.png"
+          href="https://www.instagram.com/p/Dej5Mv7lsrJ/"
           target="_blank"
           title=""
         ></mj-image>
@@ -133,38 +139,34 @@
           font-family="Helvetica, Arial, sans-serif"
           padding="0px 12px 8px 12px"
         >
-          <h2
-            class="text-content text-content-dark"
-            style="font-size: 22px; margin-top: 16px; margin-bottom: 16px"
-          >
-            BED-STUY, YOU'RE INVITED ☀️
-          </h2>
           <p
             class="text-content text-content-dark"
             style="margin-top: 16px; margin-bottom: 16px"
           >
-            Join Bed-Stuy Survival Collective (formerly Bed-Stuy Strong) at our sixth annual Summer Party on Sunday, 
-            August 23rd from 2–6 pm.
+            Everybody deserves accessible, high quality food. Your donation will help us source local food in partnership with The Brooklyn Packers. Since 2020, we’ve redistributed around $1.5 million back into our neighborhood and we are only able to do our work due to small, individual donations and local fundraising efforts from people like you. If you want to support our work on a recurring basis, you can sign up to receive a monthly contribution reminder email.
           </p>
           <p
             class="text-content text-content-dark"
             style="margin-top: 16px; margin-bottom: 16px"
           >
-            We will be at Herbert von King with music from 
-            <a href="https://www.instagram.com/actuatordj"  target="_blank" style="color: #4e9f24">Actuator</a>, 
-            seasonal produce in partnership with 
-            <a href="https://brooklynsupportedagriculture.com/" target="_blank" style="color: #4e9f24">Brooklyn Supported Agriculture</a>, 
-            hot food, a kids activity area, 
-            free books from <a href="https://thenonbinarian.gay/" target="_blank" style="color: #4e9f24">The Nonbinarian Book Bike</a>, 
-            a free people’s store with a clothing swap, and more.
+           
+            Venmo: @bedstuystrong
+            Cashapp: $bedstuystrong
+            Zelle: fund@bedstuystrong.com
+
+
+            mention “fall harvest” in the note
+
           </p>
           <p
             class="text-content text-content-dark"
             style="margin-top: 16px; margin-bottom: 16px"
           >
-            Throughout the party, we will also be hosting various skillshares + health screenings including a Herbs 
-            for Grief workshop, narcan training, a mending table, and so much more. The full schedule of party offerings 
-            will be released soon! 
+            🦃 SAVE THE DATE 🦃
+
+The Fall Harvest will take place on Sunday, November 22nd starting at 2 pm.
+ Sign up to volunteer here
+More information coming soon, stay tuned!
           </p>
         </mj-text>
       </mj-column>
