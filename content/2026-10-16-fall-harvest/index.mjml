@@ -12,6 +12,12 @@
         font-size: 16px; 
         line-height: 1.5; 
       }
+      .text-content-bold {
+        font-weight: bold;
+      }
+      .text-content-italic {
+        font-style: italic;
+      }
       .text-content-dark {
         color: #3b3e40;
       } 
@@ -88,32 +94,33 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section 
-      background-color="#ffffff"
-      padding="12px 12px 12px 12px"
-    >
-      <mj-column border="3px dotted #ffa9e0" border-radius="5px">
+     <mj-section background-color="#ffffff" padding="16px 24px 0px 24px">
+      <mj-column>
         <mj-text
           css-class="text-content text-content-dark"
           font-family="Helvetica, Arial, sans-serif"
-          padding="12px 18px 12px 18px"
+          padding="0px 12px 8px 12px"
         >
           <p
             class="text-content text-content-dark"
-            style="margin-top: 0; margin-bottom: 0;"
+            style="margin-top: 16px; margin-bottom: 16px"
           >
-            Hi neighbors,
+            Hi neighbors, 
           </p>
-          <p>
-            Bed-Stuy Survival Collective (formerly Bed-Stuy Strong) is fundraising to feed at least 150 households this November during our annual Fall Harvest event. You can support us by donating now to help buy your neighbor a turkey (and fresh produce). 🥕
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            Bed-Stuy Survival Collective (formerly Bed-Stuy Strong) is fundraising to feed at least 150 households this November during our annual Fall Harvest event. You can support us by donating now to help buy your neighbor a turkey (and fresh produce). 🥕 
           </p>
-          <p>
-            $40 covers one large turkey, $60 covers a turkey and sides, but any amount at all is welcome.
-
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+             $40 covers one large turkey, $60 covers a turkey and sides, but any amount at all is welcome.
           </p>
         </mj-text>
       </mj-column>
-    </mj-section>
     </mj-section>
     <mj-section
       padding="0px 0px 0px 0px"
@@ -121,10 +128,11 @@
     >
       <mj-column>
         <mj-image
-          align="left"
+          align="center"
           alt="flyer sage green background with yellow text stating BUY YOUR NEIGHBOR A TURKEY. a rendering of a turkey with text $40 BUYS ONE LARGE TURKEY $60 BUYS A TURKEY + SIDES. bottom is yellow with black text VENMO: @BEDSTUYSTRONG CASHAPP: $BEDSTUYSTRONG Zelle: FUND@BEDSTUYSTRONG.COM MENTION 'FALL HARVEST' Bed Stuy Survival Collective logo"
           border="none"
           padding="0px 0px 0px 0px"
+          max-height="80%"
           src="turkey_graphic.png"
           href="https://www.instagram.com/p/Dej5Mv7lsrJ/"
           target="_blank"
@@ -143,48 +151,77 @@
             class="text-content text-content-dark"
             style="margin-top: 16px; margin-bottom: 16px"
           >
-            Everybody deserves accessible, high quality food. Your donation will help us source local food in partnership with The Brooklyn Packers. Since 2020, we’ve redistributed around $1.5 million back into our neighborhood and we are only able to do our work due to small, individual donations and local fundraising efforts from people like you. If you want to support our work on a recurring basis, you can sign up to receive a monthly contribution reminder email.
+            Everybody deserves accessible, high quality food. Your donation will help us source local food in partnership with 
+            <a target="_blank" href="https://brooklynsupportedagriculture.com/pages/brooklynpackers">
+            The Brooklyn Packers
+            </a>
+            . Since 2020, we’ve redistributed around $1.5 million back into our neighborhood and we are only able to do our work due to small, individual donations and local fundraising efforts from people like you. If you want to support our work on a recurring basis, you can sign up to receive a monthly contribution reminder email.
           </p>
           <p
-            class="text-content text-content-dark"
+            class="text-content text-content-dark text-content-bold"
             style="margin-top: 16px; margin-bottom: 16px"
           >
-           
             Venmo: @bedstuystrong
+            <br>
             Cashapp: $bedstuystrong
+            <br>
             Zelle: fund@bedstuystrong.com
-
-
+            <br>
             mention “fall harvest” in the note
-
-          </p>
-          <p
-            class="text-content text-content-dark"
-            style="margin-top: 16px; margin-bottom: 16px"
-          >
-            🦃 SAVE THE DATE 🦃
-
-The Fall Harvest will take place on Sunday, November 22nd starting at 2 pm.
- Sign up to volunteer here
-More information coming soon, stay tuned!
           </p>
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="0px 24px 20px 24px">
-      <mj-column>
+    <mj-section 
+      background-color="#ffffff"
+      padding="12px 12px 12px 12px"
+      text-align="center"
+    >
+      <mj-column border="3px solid #996136">
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px"
+          align="center"
+        >
+          <h2
+            class="text-content text-content-dark"
+            style="font-size: 22px; margin-top: 16px; margin-bottom: 16px;"
+          >
+            🦃 SAVE THE DATE 🦃 
+          </h2>
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; font-size: 15px;"
+          >
+            The Fall Harvest will take place on <b>Sunday, November 22nd</b> starting at 2 pm.
+          </p>
+        </mj-text>
         <mj-button 
-          background-color="#84ce5e" 
+          background-color="#dabd5f" 
           color="#000000"
-          font-size="18px" 
+          font-size="16px" 
           font-family="Helvetica, Arial, sans-serif" 
           font-weight="bold"
           border-radius="8px"
-          href="https://docs.google.com/forms/d/e/1FAIpQLScOWgS0wnPWSf074JWlc5wJ8BcQc03VU0bir0JVQ93d3Uj3KQ/viewform"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeez9l3Hu2f-52x1y2z9geGBb14OWks17MLLYYtzGhWzyrMIg/viewform"
           target="_blank"
-        >Sign up to volunteer</mj-button>
+        >Sign up to volunteer here</mj-button>
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          align="center"
+          padding="0"
+        >
+          <p
+            class="text-content text-content-dark text-content-italic"
+          >
+            More information coming soon, stay tuned!
+          </p>
+        </mj-text>
       </mj-column>
     </mj-section>
+   
     <mj-section
       background-color="#fee498"
       full-width="full-width"

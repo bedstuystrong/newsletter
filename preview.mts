@@ -43,7 +43,7 @@ server.get("/:emailName/", async function handler(request, response) {
 
   const mjmlPath = path.resolve("content", `${emailName}/index.mjml`);
   const mjml = await fs.readFile(mjmlPath, { encoding: "utf-8" });
-  const { html, errors, json } = mjml2html(
+  const { html, errors, json } = await mjml2html(
     mjml,
     makeOptions(mjmlPath, {
       static_url: `http://localhost:${PORT}`,
