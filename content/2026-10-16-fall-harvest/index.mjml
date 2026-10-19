@@ -158,20 +158,24 @@
             style="margin-top: 16px; margin-bottom: 16px"
           >
             Everybody deserves accessible, high quality food. Your donation will help us source local food in partnership with 
-            <a target="_blank" href="https://brooklynsupportedagriculture.com/pages/brooklynpackers">
-            The Brooklyn Packers
-            </a>
-            . Since 2020, we’ve redistributed around $1.5 million back into our neighborhood and we are only able to do our work due to small, individual donations and local fundraising efforts from people like you. If you want to support our work on a recurring basis, you can sign up to <u>receive a monthly contribution reminder email</u>.
+            <a target="_blank" href="https://brooklynsupportedagriculture.com/pages/brooklynpackers" 
+            target="_blank" style="color: #748f6f">The Brooklyn Packers</a>. 
+            Since 2020, we’ve redistributed around $1.5 million back into our neighborhood and we are only able to do our work 
+            due to small, individual donations and local fundraising efforts from people like you. If you want to support our
+            work on a recurring basis, you can sign up to <a href="http://airtable.com/appy1alZdo13D8l8Y/pag6lxocQHAmTM05X/form"
+            target="_blank" style="color: #748f6f">receive a monthly contribution reminder email</a>.
           </p>
           <p
             class="text-content text-content-dark text-content-bold"
             style="margin-top: 16px; margin-bottom: 16px"
           >
-            Venmo:  <a href="https://account.venmo.com/u/bedstuystrong" target="_blank">@bedstuystrong</a>
+            Venmo:  <a href="https://account.venmo.com/u/bedstuystrong" 
+            target="_blank" style="color: #748f6f">@bedstuystrong</a>
             <br>
-            Cashapp: <a href="https://cash.app/$bedstuystrong" target="_blank">$bedstuystrong</a>
+            Cashapp: <a href="https://cash.app/$bedstuystrong" 
+            target="_blank" style="color: #748f6f">$bedstuystrong</a>
             <br>
-            Zelle: <u>fund@bedstuystrong.com</u>
+            Zelle: fund<span>@</span>bedstuystrong<span>.</span>com
             <br>
             mention “fall harvest” in the note
           </p>
@@ -183,7 +187,7 @@
       padding="12px 12px 12px 12px"
       text-align="center"
     >
-      <mj-column border="3px solid #996136">
+      <mj-column border="3px solid #d9bc76">
         <mj-text
           css-class="text-content text-content-dark"
           font-family="Helvetica, Arial, sans-serif"
@@ -204,7 +208,7 @@
           </p>
         </mj-text>
         <mj-button 
-          background-color="#dabd5f" 
+          background-color="#d9bc76" 
           color="#000000"
           font-size="16px" 
           font-family="Helvetica, Arial, sans-serif" 
@@ -227,11 +231,10 @@
         </mj-text>
       </mj-column>
     </mj-section>
-   
     <mj-section
       background-color="#6a5885"
       full-width="full-width"
-      padding="36px 36px 24px 36px"
+      padding="24px 36px 24px 36px"
     >
       <mj-column>
         <mj-image
@@ -259,7 +262,7 @@
           </p>
           <p
             class="text-content text-content-light"
-            style="margin-top: 45px; margin-bottom: 10px"
+            style="margin-top: 30px; margin-bottom: 10px"
           >
             1. <b>Donate baby essentials</b> to be included in our free store. We are collecting baby diapers (any size), wipes, and formula (the most requested kind is Enfamil NeuroPro Baby Formula). 
           </p>
@@ -270,25 +273,23 @@
             👉 From now until November 15th; drop off items at
             <ol
             class="text-content text-content-light">
-              <li>Cosmo (265 Malcolm X Blvd, Brooklyn, NY 11233)
+              <li><a href="https://cosmobrooklyn.com/" target="_blank" style="color: #ffffff">Cosmo</a> (265 Malcolm X Blvd, Brooklyn, NY 11233)
               Tuesday - Sunday 11 AM - 5 PM 
               </li>
               <li>
-              The Nonbinarian Bookstore (1130 President St, Brooklyn, NY 11225)
+              <a href="https://thenonbinarian.gay/" target="_blank" style="color: #ffffff">The Nonbinarian Bookstore</a> (1130 President St, Brooklyn, NY 11225)
               Daily (Monday - Sunday) 12 PM - 7 PM
               </li>
             </ol>
           </p>
           <p class="text-content text-content-light">
-            👉 One day only, drop off items: Sunday, November 8th at 1320 Fulton Street from 12 - 4 pm, directly with BSSC organizers. 
-
+            👉 <em>One day only</em>, drop off items: Sunday, November 8th at 1320 Fulton Street from 12 - 4 pm, directly with BSSC organizers. 
           </p>
           <p
             class="text-content text-content-light"
-            style="margin-top: 45px; margin-bottom: 10px"
+            style="margin-top: 30px; margin-bottom: 10px"
           >
-          2. Consider <b>purchasing your next</b> read through Bed-Stuy Survival Collective's affiliate link with Bookshop.org
-          (<a  class="light" href="http://bookshop.org/shop/bssreads" target="_blank">bookshop.org/shop/bssreads</a>). 
+          2. Consider <b>purchasing your next</b> read through <a class="light" href="http://bookshop.org/shop/bssreads" target="_blank">Bed-Stuy Survival Collective's affiliate link with Bookshop.org</a>. 
           </p>
           <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px"> 
             ANY book you purchase after following this link will benefit our reading group's bookshare fund (10% of the purchase to us!), which we use to purchase books to redistribute in our Free Store at the Fall Harvest.
@@ -373,11 +374,19 @@
           </ul>
 
           <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
-          DJ Professa Prince spun some tunes while we enjoyed free books from The Nonbinarian Book Bike, a community art project, a clothing share and live mending table, various skill shares hosted by Brooklyn Harm Reduction Outreach Cooperative (BKHROC), The Repair Cafe, Artists In Resistance (A.I.R.) NYC., and Bed-Stuy Survival Collective organizers, and more. 
+          DJ Professa Prince spun some tunes while we enjoyed free books from <a href="https://thenonbinarian.gay/" target="_blank">The Nonbinarian Book Bike</a>, 
+          a community art project, a clothing share and live mending table, various skill shares hosted by 
+          <a href="https://linktr.ee/BK_HR_OC" target="_blank">Brooklyn Harm Reduction Outreach Cooperative (BKHROC)</a>, 
+          <a href="https://www.repaircafe.nyc/" target="_blank">Repair Cafe Brooklyn</a>, <a href="https://www.airnyc.club" target="_blank">Artists In Resistance (A.I.R.) NYC</a>, 
+          and Bed-Stuy Survival Collective organizers, and more. 
           </p>
           <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
-            In 2021, we gathered for our first Summer Party ever, to mark the end of our emergency response food operation that sustained many households during lockdown. (Many of us, freshly vaccinated💉) That summer, the organizers that remained in BSSC committed themselves to building a more sustainable organizing structure. Five years later, back in August at this year’s Party, we came together to celebrate that vision coming to life. ICYMI, we changed our name, and launched a revamped membership model and food security program in May. This work embodies the dreams we had in 2021. Read more about that <a href="../2026-07-31-summer-party-rename/" target="_blank">HERE</a>. 
-
+            In 2021, we gathered for our first Summer Party ever, to mark the end of our emergency response food operation that 
+            sustained many households during lockdown. (Many of us, freshly vaccinated💉) That summer, the organizers that remained in 
+            BSSC committed themselves to building a more sustainable organizing structure. Five years later, back in August 
+            at this year’s Party, we came together to celebrate that vision coming to life. ICYMI, we changed our name, and 
+            launched a revamped membership model and food security program in May. This work embodies the dreams we had in 2021. 
+            Read more about that <a href="../2026-07-31-summer-party-rename/" target="_blank">HERE</a>. 
           </p>
         </mj-text>
       </mj-column>
@@ -418,7 +427,63 @@
         />
       </mj-column>
     </mj-section>
-   
+    <mj-section
+      background-color="#ffffff"
+      padding="24px 24px 12px 24px"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 10px 0px 10px"
+        >
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            The Bed-Stuy Survival Collective Reading Group is excited to announce our next book!
+          </p>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            This fall, we’ll be reading Border and Rule: Global Migration, Capitalism, and the Rise of Racist Nationalism by immigrant rights organizer and anti-capitalist activist Harsha Walia.
+            </p>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            One of the central tenets of Donald Trump’s political ideology has been his anti-immigration stance, which is largely predicated on stereotypes and outright falsehoods regarding the U.S.’s immigrant population.
+            </p>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            In Border and Rule, Walia dismisses the dominant narrative of a “border crisis” and instead asserts that border regimes subject migrants and refugees to displacement, criminalization, and exploitation to impede the formation of an international working class consciousness while expanding a far-right, nationalist, ruling-class empire.
+            </p>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            As ICE actively terrorizes our neighbors, citizens and undocumented immigrants alike, it’s crucial for us to dismantle the propaganda that keeps us from effectively organizing against far-right forces that know we’re weaker separated than united.
+            </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="0 24px 24px 24px"
+    >
+      <mj-group>
+        <mj-column>
+          <mj-text
+            font-family="Helvetica, Arial, sans-serif"
+            padding="0px 10px 0px 10px"
+          >
+            <p class="text-content text-content-dark" style="margin-top: 0; margin-bottom: 16px">
+              Our first session will take place on Monday, November 2 from 7:00 pm – 8:30 pm. We’ll be reading the forward and the introduction.
+            </p>
+            <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+              Reading materials + Zoom link can be found HERE. Reach out with questions at bssreadinggroup@gmail.com. We look forward to reading with you!  
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image
+            align="center"
+            alt=""
+            border="none"
+            padding="0px 0px 0px 0px"
+            src="border_and_rule.png"
+            title=""
+          />
+        </mj-column>
+      </mj-group>
+    </mj-section>
     <mj-section 
       background-color="linear-gradient(0deg, rgb(37, 144, 232), #1762AB)"
       full-width="full-width"
