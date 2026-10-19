@@ -386,7 +386,7 @@
             BSSC committed themselves to building a more sustainable organizing structure. Five years later, back in August 
             at this year’s Party, we came together to celebrate that vision coming to life. ICYMI, we changed our name, and 
             launched a revamped membership model and food security program in May. This work embodies the dreams we had in 2021. 
-            Read more about that <a href="../2026-07-31-summer-party-rename/" target="_blank">HERE</a>. 
+            <a href="https://newsletter.bedstuystrong.com/2026-07-31-summer-party-rename/#bssc" target="_blank">Read more about that here</a>. 
           </p>
         </mj-text>
       </mj-column>
@@ -412,9 +412,8 @@
             class="text-content text-content-light"
             style="text-align: center; margin-top: 30px; margin-bottom: 20px"
           >
-            ICYMI: Bed-Stuy Strong changed our name. <br /> We are now Bed-Stuy Survival Collective.
-            <br />
-           <a class="light" href="../2026-07-31-summer-party-rename/" target="_blank">Read more about that in our previous newsletter</a>
+            ICYMI: Bed-Stuy Strong changed our name. <br /> 
+            <a class="light" href="https://newsletter.bedstuystrong.com/2026-07-31-summer-party-rename/#bssc" target="_blank">We are now Bed-Stuy Survival Collective.</a>
           <p>
         </mj-text>
         <mj-image
@@ -424,6 +423,8 @@
           padding="0px 0px 0px 0px"
           src="bssc.png"
           title=""
+          href="https://newsletter.bedstuystrong.com/2026-07-31-summer-party-rename/#bssc"
+          target="_blank"
         />
       </mj-column>
     </mj-section>
@@ -436,11 +437,16 @@
           font-family="Helvetica, Arial, sans-serif"
           padding="0px 10px 0px 10px"
         >
-          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+          <h2
+            class="text-content text-content-dark"
+            style="font-size: 22px; margin-top: 0; margin-bottom: 16px;"
+          >
             The Bed-Stuy Survival Collective Reading Group is excited to announce our next book!
-          </p>
+          </h2>
           <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
-            This fall, we’ll be reading Border and Rule: Global Migration, Capitalism, and the Rise of Racist Nationalism by immigrant rights organizer and anti-capitalist activist Harsha Walia.
+            This fall, we’ll be reading <a href="https://arxiujosepserradell.cat/wp-content/uploads/2025/03/Border-and-Rule-Harsha-Walia-Harsha-Walia-Z-Library.pdf" target="_blank">
+            Border and Rule: Global Migration, Capitalism, and the Rise of Racist Nationalism</a> by 
+            immigrant rights organizer and anti-capitalist activist Harsha Walia.
             </p>
           <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
             One of the central tenets of Donald Trump’s political ideology has been his anti-immigration stance, which is largely predicated on stereotypes and outright falsehoods regarding the U.S.’s immigrant population.
@@ -448,41 +454,48 @@
           <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
             In Border and Rule, Walia dismisses the dominant narrative of a “border crisis” and instead asserts that border regimes subject migrants and refugees to displacement, criminalization, and exploitation to impede the formation of an international working class consciousness while expanding a far-right, nationalist, ruling-class empire.
             </p>
-          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 8px">
             As ICE actively terrorizes our neighbors, citizens and undocumented immigrants alike, it’s crucial for us to dismantle the propaganda that keeps us from effectively organizing against far-right forces that know we’re weaker separated than united.
-            </p>
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section
       background-color="#ffffff"
       padding="0 24px 24px 24px"
+      direction="rtl"
     >
-      <mj-group>
-        <mj-column>
-          <mj-text
-            font-family="Helvetica, Arial, sans-serif"
-            padding="0px 10px 0px 10px"
-          >
-            <p class="text-content text-content-dark" style="margin-top: 0; margin-bottom: 16px">
-              Our first session will take place on Monday, November 2 from 7:00 pm – 8:30 pm. We’ll be reading the forward and the introduction.
-            </p>
-            <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
-              Reading materials + Zoom link can be found HERE. Reach out with questions at bssreadinggroup@gmail.com. We look forward to reading with you!  
-            </p>
-          </mj-text>
-        </mj-column>
-        <mj-column>
-          <mj-image
-            align="center"
-            alt=""
-            border="none"
-            padding="0px 0px 0px 0px"
-            src="border_and_rule.png"
-            title=""
-          />
-        </mj-column>
-      </mj-group>
+      <mj-column>
+        <mj-image
+          align="center"
+          alt=""
+          border="none"
+          padding="0px 0px 16px 0px"
+          src="border_and_rule.png"
+          title=""
+          href="https://docs.google.com/document/d/19QZAP2amrJECl_I2GMHzux05LMmYQPctj8q9LxUk1eA/edit?usp=sharing"
+          target="_blank"
+        />
+      </mj-column>
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="8px 24px 0px 10px"
+        >
+          <p class="text-content text-content-dark" style="margin-top: 0; margin-bottom: 16px">
+            Our first session will take place on Monday, November 2 from 7:00 pm – 8:30 pm. We’ll be reading the 
+            forward and the introduction.
+          </p>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            <a href="https://docs.google.com/document/d/19QZAP2amrJECl_I2GMHzux05LMmYQPctj8q9LxUk1eA/edit?usp=sharing" target="_blank">
+            Reading materials + Zoom link can be found here</a>. Reach out with questions at 
+            <a href="mailto:bssreadinggroup@gmail.com" target="_blank">bssreadinggroup@gmail.com</a>. 
+          </p>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            We look forward to reading with you!  
+          </p>
+        </mj-text>
+      </mj-column>
     </mj-section>
     <mj-section 
       background-color="linear-gradient(0deg, rgb(37, 144, 232), #1762AB)"
