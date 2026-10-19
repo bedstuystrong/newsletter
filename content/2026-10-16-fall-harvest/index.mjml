@@ -394,7 +394,7 @@
     <mj-section
       background-color="#09346e"
       full-width="full-width"
-      padding="18px 0px 0px 0px"
+      padding="18px 0px 36px 0px"
     >
       <mj-column>
         <mj-raw> 
@@ -498,7 +498,7 @@
       </mj-column>
     </mj-section>
     <mj-section 
-      background-color="#d9bc76"
+      background-color="#F2F2F2"
       full-width="full-width"
       padding="20px 30px 20px 30px"
     >

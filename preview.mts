@@ -42,10 +42,13 @@ server.get("/:emailName/", async function handler(request, response) {
   }
 
   const mjmlPath = path.resolve("content", `${emailName}/index.mjml`);
+  const includePath = path.resolve("includes");
   const mjml = await fs.readFile(mjmlPath, { encoding: "utf-8" });
   const { html, errors, json } = await mjml2html(
     mjml,
-    makeOptions(mjmlPath, {
+    makeOptions(mjmlPath,
+      includePath, {
+      include_footer: true,
       static_url: `http://localhost:${PORT}`,
       permalink: `http://localhost:${PORT}/${emailName}`,
     }),
