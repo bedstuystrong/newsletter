@@ -500,7 +500,7 @@
     <mj-section 
       background-color="#d9bc76"
       full-width="full-width"
-      padding="60px 30px 20px 30px"
+      padding="20px 30px 20px 30px"
     >
       <mj-group vertical-align="middle">
         <mj-column vertical-align="middle" width="33%">
