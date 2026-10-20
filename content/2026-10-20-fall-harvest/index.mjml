@@ -321,7 +321,7 @@
     <mj-section
       background-color="#6a5885"
       full-width="full-width"
-      padding="0px 0px 0px 0px"
+      padding="16px 0px 0px 0px"
     >
       <mj-column>
         <mj-image
@@ -333,6 +333,14 @@
           target="_blank"
           title=""
         />
+        <mj-text>
+          <p
+            class="text-content text-content-light"
+            style="text-align: right; font-size: 13px; opacity: 0.6; margin-top: 0; margin-bottom: 16px"
+          >
+            leaf illustrations by <a href="https://www.magnific.com/free-vector/flat-design-autumn-leaves-set_9241081.htm#fromView=search&page=2&position=14&uuid=a21e8343-d311-4b6d-aa44-25fec60ca533&track=ais_hybrid&query=fall+leaves" target="_blank" style="color: #ffffff">magnific</a>
+          </p>
+        </mj-text>
       </mj-column>
     </mj-section>
     <mj-section
