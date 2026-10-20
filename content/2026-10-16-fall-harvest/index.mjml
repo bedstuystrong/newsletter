@@ -1,8 +1,8 @@
 <mjml dir="ltr" lang="en" owa="desktop" version="4.14.1">
   <!-- Based on Mailjet's "New Year Newsletter" template -->
   <mj-head>
-    <mj-title>Fall Harvest fundraiser 🍗🦃, book club & more</mj-title>
-    <mj-preview>turkey fundraiser, how to support, summer party recap & book club</mj-preview>
+    <mj-title>fall harvest fundraiser 🍗🦃, book club & more</mj-title>
+    <mj-preview>how to support, summer party recap & book club</mj-preview>
     <mj-style inline="inline">
       a {
         text-decoration: underline;
@@ -23,9 +23,6 @@
       } 
       .text-content-light {
         color: #ffffff;
-      }
-      a.light {
-        color: #8ffa67;
       }
       a {
         color: #008bf5;
@@ -125,6 +122,12 @@
           >
              $40 covers one large turkey, $60 covers a turkey and sides, but any amount at all is welcome.
           </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            Keep reading for more ways you can support, a recap of our summer party, and our upcoming reading group announcement!
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -184,10 +187,10 @@
     </mj-section>
     <mj-section 
       background-color="#ffffff"
-      padding="12px 12px 12px 12px"
+      padding="0px 24px 24px 24px"
       text-align="center"
     >
-      <mj-column border="3px solid #d9bc76">
+      <mj-column border="6px dashed #d9bc76">
         <mj-text
           css-class="text-content text-content-dark"
           font-family="Helvetica, Arial, sans-serif"
@@ -198,13 +201,13 @@
             class="text-content text-content-dark"
             style="font-size: 22px; margin-top: 16px; margin-bottom: 16px;"
           >
-            🦃 SAVE THE DATE 🦃 
+            🍂 SAVE THE DATE 🍁
           </h2>
           <p
             class="text-content text-content-dark"
-            style="margin-top: 16px; font-size: 15px;"
+            style="margin-top: 16px;"
           >
-            The Fall Harvest will take place on <b>Sunday, November 22nd</b> starting at 2 pm.
+            The Fall Harvest will take place on <br /><b>Sunday, November 22nd</b> starting at 2 pm.
           </p>
         </mj-text>
         <mj-button 
@@ -234,12 +237,27 @@
     <mj-section
       background-color="#6a5885"
       full-width="full-width"
-      padding="24px 36px 24px 36px"
+      padding="24px 36px 0px 36px"
     >
       <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="30px"
+          padding-right="30px"
+          padding-top="0px"
+          padding="0px 30px 0px 30px"
+        >
+          <h3
+            class="text-content text-content-light"
+            style="font-size: 18px; text-align: center; margin-top: 16px; margin-bottom: 24px"
+          >
+            There are a few other ways you can support this year’s Fall Harvest ✨
+          </h3>
+        </mj-text>
         <mj-image
           align="center"
-          alt=""
+          alt="photo from one of our 2025 fall food distributions showing neighbors bundled up and waiting in line"
           border="none"
           padding="0px 0px 0px 0px"
           src="fall_harvest.png"
@@ -256,12 +274,6 @@
         >
           <p
             class="text-content text-content-light"
-            style="margin-top: 16px; margin-bottom: 16px"
-          >
-            There are a few other ways you can support this year’s Fall Harvest ✨
-          </p>
-          <p
-            class="text-content text-content-light"
             style="margin-top: 30px; margin-bottom: 10px"
           >
             1. <b>Donate baby essentials</b> to be included in our free store. We are collecting baby diapers (any size), wipes, and formula (the most requested kind is Enfamil NeuroPro Baby Formula). 
@@ -273,11 +285,11 @@
             👉 From now until November 15th; drop off items at
             <ol
             class="text-content text-content-light">
-              <li><a href="https://cosmobrooklyn.com/" target="_blank" style="color: #ffffff">Cosmo</a> (265 Malcolm X Blvd, Brooklyn, NY 11233)
+              <li><a href="https://cosmobrooklyn.com/" target="_blank" style="color: #ffffff">Cosmo</a> (265 Malcolm X Blvd, Brooklyn, NY 11233)<br/>
               Tuesday - Sunday 11 AM - 5 PM 
               </li>
               <li>
-              <a href="https://thenonbinarian.gay/" target="_blank" style="color: #ffffff">The Nonbinarian Bookstore</a> (1130 President St, Brooklyn, NY 11225)
+              <a href="https://thenonbinarian.gay/" target="_blank" style="color: #ffffff">The Nonbinarian Bookstore</a> (1130 President St, Brooklyn, NY 11225)<br/>
               Daily (Monday - Sunday) 12 PM - 7 PM
               </li>
             </ol>
@@ -289,7 +301,7 @@
             class="text-content text-content-light"
             style="margin-top: 30px; margin-bottom: 10px"
           >
-          2. Consider <b>purchasing your next</b> read through <a class="light" href="http://bookshop.org/shop/bssreads" target="_blank" style="color: #ffffff">Bed-Stuy Survival Collective's affiliate link with Bookshop.org</a>. 
+          2. Consider <b>purchasing your next</b> read through <a href="http://bookshop.org/shop/bssreads" target="_blank" style="color: #ffffff">Bed-Stuy Survival Collective's affiliate link with Bookshop.org</a>. 
           </p>
           <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px"> 
             ANY book you purchase after following this link will benefit our reading group's bookshare fund (10% of the purchase to us!), which we use to purchase books to redistribute in our Free Store at the Fall Harvest.
@@ -304,15 +316,31 @@
             There’s a lot of ways to help us raise funds – in the past we’ve received donations from raffles, bake sales, event tickets, and clothing stoop sales. Pick something that’s special to you or just use the resources you’ve got. You can ask people to pay us directly or collect the funds yourself and send them to us if that’s easier. Let us know what you’re planning and we can share it on our social media!
           </p>
         </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#6a5885"
+      full-width="full-width"
+      padding="0px 0px 0px 0px"
+    >
+      <mj-column>
         <mj-image
-            align="center"
-            alt="3 sun shapes with text. 1. time to declutter? raffle off a unique item! 2. host a party and donate ticket sales 3. organize a bake sale or lemonade stand on your block"
-            border="none"
-            padding="0px 0px 0px 0px"
-            src="fundraiser_ideas.png"
-            target="_blank"
-            title=""
-          />
+          align="center"
+          alt="3 fall leaf shapes with text. 1. time to declutter? raffle off a unique item! 2. host a party and donate ticket sales 3. organize a bake sale or lemonade stand on your block"
+          border="none"
+          padding="0px 0px 0px 0px"
+          src="fundraiser_ideas.png"
+          target="_blank"
+          title=""
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#6a5885"
+      full-width="full-width"
+      padding="0px 36px 24px 36px"
+    >
+      <mj-column>
         <mj-text
           font-family="Helvetica, Arial, sans-serif"
           padding-bottom="0px"
@@ -327,15 +355,15 @@
            <ul
             class="text-content text-content-light">
               <li>
-                <a class="light" href="https://www.instagram.com/thriftyonesbk/" target="_blank" style="color: #ffffff">The Thrifty Ones</a>
+                <a href="https://www.instagram.com/thriftyonesbk/" target="_blank" style="color: #ffffff">The Thrifty Ones</a>
                  - A group of skateboarders hosting skate jams, kickbacks & flea markets to fundraise for mutual aid efforts. They have hosted many markets in the past year, and sent over a portion of the sales at those events to our community fund. In August they raised $530 for our organization!
               </li>
               <li>
-                <a class="light" href="https://www.instagram.com/tadpolereadingseries/" target="_blank" style="color: #ffffff">Tadpole Reading Series</a>
+                <a href="https://www.instagram.com/tadpolereadingseries/" target="_blank" style="color: #ffffff">Tadpole Reading Series</a>
                 - A seasonal mixed-genre reading series at Tadpole Bar here in Bed-Stuy. In April they hosted a reading on desire, and encouraged donations to our organization.
               </li>
               <li>
-                 <a class="light" href="https://www.instagram.com/bkcounter/" target="_blank" style="color: #ffffff"> Kalakkal Counter by Dhivya</a>
+                 <a href="https://www.instagram.com/bkcounter/" target="_blank" style="color: #ffffff"> Kalakkal Counter by Dhivya</a>
                 - An afterschool and summer camp program that teaches kids in Brooklyn math through hands-on cooking with collectivism and care in the center. Kalakkal Counter hosted some pop-up events around the neighborhood in May, giving away pizza slices & decorate-your-own cupcakes, encouraging sales. $64 was raised over some rainy days and sent over to us.
               </li>
               <li>
@@ -350,15 +378,15 @@
       padding="24px 24px 24px 24px"
     >
       <mj-column>
-      <mj-image
-        align="center"
-        alt=""
-        border="none"
-        padding="0px 0px 0px 0px"
-        src="summer_party.png"
-        target="_blank"
-        title=""
-      />
+        <mj-image
+          align="center"
+          alt="two photos from our summer party, one showing boxes of produce behind our food distribution table, the other showing our skillshare schedule"
+          border="none"
+          padding="0px 0px 0px 0px"
+          src="summer_party_collage.png"
+          target="_blank"
+          title=""
+        />
         <mj-text
           font-family="Helvetica, Arial, sans-serif"
           padding="0px 10px 0px 10px"
@@ -372,13 +400,12 @@
             <li>COVID-19 rapid tests and PPE</li>
             <li>Fresh, hot meals</li>
           </ul>
-
           <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
-          DJ Professa Prince spun some tunes while we enjoyed free books from <a href="https://thenonbinarian.gay/" target="_blank" style="color: #429233">The Nonbinarian Book Bike</a>, 
-          a community art project, a clothing share and live mending table, various skill shares hosted by 
-          <a href="https://linktr.ee/BK_HR_OC" target="_blank" style="color: #429233">Brooklyn Harm Reduction Outreach Cooperative (BKHROC)</a>, 
-          <a href="https://www.repaircafe.nyc/" target="_blank" style="color: #429233">Repair Cafe Brooklyn</a>, <a href="https://www.airnyc.club" target="_blank" style="color: #429233">Artists In Resistance (A.I.R.) NYC</a>, 
-          and Bed-Stuy Survival Collective organizers, and more. 
+            DJ Professa Prince spun some tunes while we enjoyed free books from <a href="https://thenonbinarian.gay/" target="_blank" style="color: #429233">The Nonbinarian Book Bike</a>, 
+            a community art project, a clothing share and live mending table, various skill shares hosted by 
+            <a href="https://linktr.ee/BK_HR_OC" target="_blank" style="color: #429233">Brooklyn Harm Reduction Outreach Cooperative (BKHROC)</a>, 
+            <a href="https://www.repaircafe.nyc/" target="_blank" style="color: #429233">Repair Cafe Brooklyn</a>, <a href="https://www.airnyc.club" target="_blank" style="color: #429233">Artists In Resistance (A.I.R.) NYC</a>, 
+            and Bed-Stuy Survival Collective organizers, and more. 
           </p>
           <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
             In 2021, we gathered for our first Summer Party ever, to mark the end of our emergency response food operation that 
@@ -394,7 +421,7 @@
     <mj-section
       background-color="#09346e"
       full-width="full-width"
-      padding="18px 0px 36px 0px"
+      padding="18px 0px 0px 0px"
     >
       <mj-column>
         <mj-raw> 
@@ -430,7 +457,7 @@
     </mj-section>
     <mj-section
       background-color="#ffffff"
-      padding="24px 24px 12px 24px"
+      padding="36px 24px 12px 24px"
     >
       <mj-column>
         <mj-text
@@ -498,8 +525,7 @@
       </mj-column>
     </mj-section>
     <mj-section 
-      background-color="#F2F2F2"
-      full-width="full-width"
+      background-color="#dddddd"
       padding="20px 30px 20px 30px"
     >
       <mj-group vertical-align="middle">
