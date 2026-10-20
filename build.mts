@@ -21,18 +21,17 @@ await Promise.all(
     await fs.mkdir(path.join("dist", emailName));
 
     const mjmlPath = path.resolve("content", `${emailName}/index.mjml`);
+    const includePath = path.resolve("includes");
+
     const mjml = await fs.readFile(mjmlPath, { encoding: "utf-8" });
-    const { html, errors, json } = mjml2html(
-      mjml,
-      makeOptions(mjmlPath, {
-        include_footer: false,
-        permalink: `${process.env.URL}/${emailName}`,
-      })
-    );
-    if (errors.length) {
+    const options = makeOptions(mjmlPath, includePath, {
+      include_footer: false,
+      permalink: `${process.env.URL}/${emailName}`,
+    });
+    const { html, errors, json } = await mjml2html(mjml, options);
+    if (errors?.length) {
       console.log(errors);
     }
-
     await fs.writeFile(path.join("dist", emailName, "index.html"), html, {
       encoding: "utf-8",
     });
@@ -46,9 +45,9 @@ await Promise.all(
         async (filename) =>
           await fs.copyFile(
             path.resolve("content", emailName, filename),
-            path.resolve("dist", emailName, filename)
-          )
-      )
+            path.resolve("dist", emailName, filename),
+          ),
+      ),
     );
-  })
+  }),
 );

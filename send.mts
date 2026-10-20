@@ -36,6 +36,8 @@ try {
 const PRODUCTION_URL = "https://newsletter.bedstuystrong.com";
 
 const mjmlPath = path.resolve("content", `${emailName}/index.mjml`);
+const includePath = path.resolve("includes");
+
 let mjml = await fs.readFile(mjmlPath, { encoding: "utf-8" });
 
 const assets = (await fs.readdir(path.resolve("content", emailName))).filter(
@@ -50,10 +52,11 @@ for (const assetName of assets) {
 
 const { html, errors, json } = await mjml2html(
   mjml,
-  makeOptions(mjmlPath, {
-    include_footer: true,
-    static_url: PRODUCTION_URL,
-    permalink: `${PRODUCTION_URL}/${emailName}`,
+  makeOptions(mjmlPath,
+    includePath, {
+      include_footer: true,
+      static_url: PRODUCTION_URL,
+      permalink: `${PRODUCTION_URL}/${emailName}`,
   }),
 );
 if (errors.length) {

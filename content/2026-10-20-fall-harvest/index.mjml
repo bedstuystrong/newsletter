@@ -1,0 +1,554 @@
+<mjml dir="ltr" lang="en" owa="desktop" version="4.14.1">
+  <!-- Based on Mailjet's "New Year Newsletter" template -->
+  <mj-head>
+    <mj-title>fall harvest fundraiser 🍗🦃, book club & more</mj-title>
+    <mj-preview>how to support, summer party recap & book club</mj-preview>
+    <mj-style inline="inline">
+      a {
+        text-decoration: underline;
+      } 
+      .text-content { 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 16px; 
+        line-height: 1.5; 
+      }
+      .text-content-bold {
+        font-weight: bold;
+      }
+      .text-content-italic {
+        font-style: italic;
+      }
+      .text-content-dark {
+        color: #3b3e40;
+      } 
+      .text-content-light {
+        color: #ffffff;
+      }
+      a {
+        color: #008bf5;
+      }
+    </mj-style>
+    <mj-raw>
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" content="light dark" />
+      <style type="text/css">
+        :root {
+          color-scheme: light dark;
+          supported-color-schemes: light dark;
+        }
+      </style>
+    </mj-raw>
+  </mj-head>
+  <mj-body background-color="#F2F2F2">
+    <mj-section padding="0px 0px 0px 0px" text-align="center">
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="4px 10px 4px 10px"
+        >
+          <p style="text-align: center; margin: 10px 0">
+            <span
+              style="
+                line-height: 23px;
+                letter-spacing: normal;
+                font-size: 14px;
+                color: #3b3e40;
+                text-align: left;
+                font-family: Arial;
+              "
+              >October 2026 &nbsp;|&nbsp;
+            </span>
+            <a href="<%= it.permalink %>" target="_blank">
+              <span
+                style="
+                  line-height: 23px;
+                  letter-spacing: normal;
+                  font-size: 14px;
+                  color: #626DCB;
+                  font-family: Arial;
+                "
+              >
+                <b><u>View in your browser</u></b>
+              </span>
+            </a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="36px 24px 6px 18px"
+      text-align="center"
+    >
+      <mj-group vertical-align="top">
+        <mj-column width="35%" vertical-align="middle">
+          <mj-image
+            align="left"
+            alt="Bed-Stuy Survival Collective logo"
+            border="none"
+            padding="0px 0px 0px 0px"
+            src="<%= it.static_url %>/bssc_logo.png"
+            target="_blank"
+            title=""
+          />
+        </mj-column>
+        <mj-column width="65%" vertical-align="top">
+          <mj-spacer height="50px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+     <mj-section background-color="#ffffff" padding="16px 24px 0px 24px">
+      <mj-column>
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 12px 8px 12px"
+        >
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            Hi neighbors, 
+          </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            Bed-Stuy Survival Collective (formerly Bed-Stuy Strong) is fundraising to feed at least 150 households this November during our annual Fall Harvest event. You can support us by donating now to help buy your neighbor a turkey (and fresh produce). 🥕 
+          </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+             $40 covers one large turkey, $60 covers a turkey and sides, but any amount at all is welcome.
+          </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            Keep reading for more ways you can support, a recap of our summer party, and our upcoming reading group announcement!
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      padding="0px 0px 0px 0px"
+      text-align="center"
+    >
+      <mj-column>
+        <mj-image
+          align="center"
+          alt="flyer sage green background with yellow text stating BUY YOUR NEIGHBOR A TURKEY. a rendering of a turkey with text $40 BUYS ONE LARGE TURKEY $60 BUYS A TURKEY + SIDES. bottom is yellow with black text VENMO: @BEDSTUYSTRONG CASHAPP: $BEDSTUYSTRONG Zelle: FUND@BEDSTUYSTRONG.COM MENTION 'FALL HARVEST' Bed Stuy Survival Collective logo"
+          border="none"
+          padding="0px 0px 0px 0px"
+          max-height="80%"
+          src="turkey_graphic.png"
+          href="https://www.instagram.com/p/Dej5Mv7lsrJ/"
+          target="_blank"
+          title=""
+        ></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="16px 24px 0px 24px">
+      <mj-column>
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 12px 8px 12px"
+        >
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            Everybody deserves accessible, high quality food. Your donation will help us source local food in partnership with 
+            <a target="_blank" href="https://brooklynsupportedagriculture.com/pages/brooklynpackers" 
+            target="_blank" style="color: #429233">The Brooklyn Packers</a>. 
+            Since 2020, we’ve redistributed around $1.5 million back into our neighborhood and we are only able to do our work 
+            due to small, individual donations and local fundraising efforts from people like you. If you want to support our
+            work on a recurring basis, you can sign up to <a href="http://airtable.com/appy1alZdo13D8l8Y/pag6lxocQHAmTM05X/form"
+            target="_blank" style="color: #429233">receive a monthly contribution reminder email</a>.
+          </p>
+          <p
+            class="text-content text-content-dark text-content-bold"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            Venmo:  <a href="https://account.venmo.com/u/bedstuystrong" 
+            target="_blank" style="color: #429233">@bedstuystrong</a>
+            <br>
+            Cashapp: <a href="https://cash.app/$bedstuystrong" 
+            target="_blank" style="color: #429233">$bedstuystrong</a>
+            <br>
+            Zelle: fund<span>@</span>bedstuystrong<span>.</span>com
+            <br>
+            mention “fall harvest” in the note
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section 
+      background-color="#ffffff"
+      padding="0px 24px 24px 24px"
+      text-align="center"
+    >
+      <mj-column border="6px dashed #d9bc76">
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px"
+          align="center"
+        >
+          <h2
+            class="text-content text-content-dark"
+            style="font-size: 22px; margin-top: 16px; margin-bottom: 16px;"
+          >
+            🍂 SAVE THE DATE 🍁
+          </h2>
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px;"
+          >
+            The Fall Harvest will take place on <br /><b>Sunday, November 22nd</b> starting at 2 pm.
+          </p>
+        </mj-text>
+        <mj-button 
+          background-color="#d9bc76" 
+          color="#000000"
+          font-size="16px" 
+          font-family="Helvetica, Arial, sans-serif" 
+          font-weight="bold"
+          border-radius="8px"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeez9l3Hu2f-52x1y2z9geGBb14OWks17MLLYYtzGhWzyrMIg/viewform"
+          target="_blank"
+        >Sign up to volunteer here</mj-button>
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          align="center"
+          padding="0"
+        >
+          <p
+            class="text-content text-content-dark text-content-italic"
+          >
+            More information coming soon, stay tuned!
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#6a5885"
+      full-width="full-width"
+      padding="24px 36px 0px 36px"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="30px"
+          padding-right="30px"
+          padding-top="0px"
+          padding="0px 30px 0px 30px"
+        >
+          <h3
+            class="text-content text-content-light"
+            style="font-size: 18px; text-align: center; margin-top: 16px; margin-bottom: 24px"
+          >
+            There are a few other ways you can support this year’s Fall Harvest ✨
+          </h3>
+        </mj-text>
+        <mj-image
+          align="center"
+          alt="photo from one of our 2025 fall food distributions showing neighbors bundled up and waiting in line"
+          border="none"
+          padding="0px 0px 0px 0px"
+          src="fall_harvest.png"
+          target="_blank"
+          title=""
+        />
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="10px"
+          padding-right="10px"
+          padding-top="0px"
+          padding="0px 10px 0px 10px"
+        >
+          <p
+            class="text-content text-content-light"
+            style="margin-top: 30px; margin-bottom: 10px"
+          >
+            1. <b>Donate baby essentials</b> to be included in our free store. We are collecting baby diapers (any size), wipes, and formula (the most requested kind is Enfamil NeuroPro Baby Formula). 
+          </p>
+
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px">
+            You can drop off items in two ways: 
+            <br /><br />
+            👉 From now until November 15th; drop off items at
+            <ol
+            class="text-content text-content-light">
+              <li><a href="https://cosmobrooklyn.com/" target="_blank" style="color: #ffffff">Cosmo</a> (265 Malcolm X Blvd, Brooklyn, NY 11233)<br/>
+              Tuesday - Sunday 11 AM - 5 PM 
+              </li>
+              <li>
+              <a href="https://thenonbinarian.gay/" target="_blank" style="color: #ffffff">The Nonbinarian Bookstore</a> (1130 President St, Brooklyn, NY 11225)<br/>
+              Daily (Monday - Sunday) 12 PM - 7 PM
+              </li>
+            </ol>
+          </p>
+          <p class="text-content text-content-light">
+            👉 <em>One day only</em>, drop off items: Sunday, November 8th at 1320 Fulton Street from 12 - 4 pm, directly with BSSC organizers. 
+          </p>
+          <p
+            class="text-content text-content-light"
+            style="margin-top: 30px; margin-bottom: 10px"
+          >
+          2. Consider <b>purchasing your next read</b> through <a href="http://bookshop.org/shop/bssreads" target="_blank" style="color: #ffffff">Bed-Stuy Survival Collective's affiliate link with Bookshop.org</a>. 
+          </p>
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px"> 
+            ANY book you purchase after following this link will benefit our reading group's bookshare fund (10% of the purchase to us!), which we use to purchase books to redistribute in our Free Store at the Fall Harvest.
+          </p>
+          <p
+            class="text-content text-content-light"
+            style="margin-top: 30px; margin-bottom: 10px"
+          >
+          3. <b>Organize a mini-fundraiser for us!</b>
+          </p>
+          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px"> 
+            There’s a lot of ways to help us raise funds – in the past we’ve received donations from raffles, bake sales, event tickets, and clothing stoop sales. Pick something that’s special to you or just use the resources you’ve got. You can ask people to pay us directly or collect the funds yourself and send them to us if that’s easier. Let us know what you’re planning and we can share it on our social media!
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#6a5885"
+      full-width="full-width"
+      padding="0px 0px 0px 0px"
+    >
+      <mj-column>
+        <mj-image
+          align="center"
+          alt="3 fall leaf shapes with text. 1. time to declutter? raffle off a unique item! 2. host a party and donate ticket sales 3. organize a bake sale or lemonade stand on your block"
+          border="none"
+          padding="0px 0px 0px 0px"
+          src="fundraiser_ideas.png"
+          target="_blank"
+          title=""
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#6a5885"
+      full-width="full-width"
+      padding="0px 36px 24px 36px"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="10px"
+          padding-right="10px"
+          padding-top="0px"
+          padding="0px 10px 0px 10px"
+        >
+         <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px"> 
+            Shoutout and THANK YOU to the folks who have organized a mini-fundraiser for us this past year! The creativity and care that others are putting in around the neighborhood and then sharing with us has been so meaningful. Each donation, big or small, made an impact in our efforts to redistribute resources within our community. Consider checking out these folks and supporting their work, and seeing what they’ve done for our community fund in the past for some inspiration to do your own thing.
+          </p>
+           <ul
+            class="text-content text-content-light">
+              <li>
+                <a href="https://www.instagram.com/thriftyonesbk/" target="_blank" style="color: #ffffff">The Thrifty Ones</a>
+                 - A group of skateboarders hosting skate jams, kickbacks & flea markets to fundraise for mutual aid efforts. They have hosted many markets in the past year, and sent over a portion of the sales at those events to our community fund. In August they raised $530 for our organization!
+              </li>
+              <li>
+                <a href="https://www.instagram.com/tadpolereadingseries/" target="_blank" style="color: #ffffff">Tadpole Reading Series</a>
+                - A seasonal mixed-genre reading series at Tadpole Bar here in Bed-Stuy. In April they hosted a reading on desire, and encouraged donations to our organization.
+              </li>
+              <li>
+                 <a href="https://www.instagram.com/bkcounter/" target="_blank" style="color: #ffffff"> Kalakkal Counter by Dhivya</a>
+                - An afterschool and summer camp program that teaches kids in Brooklyn math through hands-on cooking with collectivism and care in the center. Kalakkal Counter hosted some pop-up events around the neighborhood in May, giving away pizza slices & decorate-your-own cupcakes, encouraging sales. $64 was raised over some rainy days and sent over to us.
+              </li>
+              <li>
+                Neighbor O - A neighbor organized a stoop sale in August and sent over $375 to our community fund.
+              </li>
+            </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="24px 24px 24px 24px"
+    >
+      <mj-column>
+        <mj-image
+          align="center"
+          alt="two photos from our summer party, one showing boxes of produce behind our food distribution table, the other showing our skillshare schedule"
+          border="none"
+          padding="0px 0px 0px 0px"
+          src="summer_party_collage.png"
+          target="_blank"
+          title=""
+        />
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 10px 0px 10px"
+        >
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            THANK YOU to everyone who supported our Summer Party this year, whether you contributed a monetary donation, volunteered at the event, participated in our clothing swap, led a skillshare, or came out to hang and dance. It was another amazing event – we raised around $6,000 dollars and were able to provide: 
+          </p>
+          <ul class="text-content text-content-dark">
+            <li>At least 100 individuals with groceries for a week</li>
+            <li>Home, hygiene, + baby essentials</li>
+            <li>COVID-19 rapid tests and PPE</li>
+            <li>Fresh, hot meals</li>
+          </ul>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            DJ Professa Prince spun some tunes while we enjoyed free books from <a href="https://thenonbinarian.gay/" target="_blank" style="color: #429233">The Nonbinarian Book Bike</a>, 
+            a community art project, a clothing share and live mending table, various skill shares hosted by 
+            <a href="https://linktr.ee/BK_HR_OC" target="_blank" style="color: #429233">Brooklyn Harm Reduction Outreach Cooperative (BKHROC)</a>, 
+            <a href="https://www.repaircafe.nyc/" target="_blank" style="color: #429233">Repair Cafe Brooklyn</a>, <a href="https://www.airnyc.club" target="_blank" style="color: #429233">Artists In Resistance (A.I.R.) NYC</a>, 
+            and Bed-Stuy Survival Collective organizers, and more. 
+          </p>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            In 2021, we gathered for our first Summer Party ever, to mark the end of our emergency response food operation that 
+            sustained many households during lockdown. (Many of us, freshly vaccinated💉) That summer, the organizers that remained in 
+            BSSC committed themselves to building a more sustainable organizing structure. Five years later, back in August 
+            at this year’s Party, we came together to celebrate that vision coming to life. ICYMI, we changed our name, and 
+            launched a revamped membership model and food security program in May. This work embodies the dreams we had in 2021. 
+            <a href="https://newsletter.bedstuystrong.com/2026-07-31-summer-party-rename/#bssc" target="_blank" style="color: #429233">Read more about that here</a>. 
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#09346e"
+      full-width="full-width"
+      padding="18px 0px 0px 0px"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="18px"
+          padding-right="18px"
+          padding-top="0px"
+          padding="0px 18px 0px 18px"
+        >
+          <p
+            class="text-content text-content-light"
+            style="text-align: center; margin-top: 30px; margin-bottom: 20px"
+          >
+            ICYMI: Bed-Stuy Strong changed our name. <br /> 
+            <a href="https://newsletter.bedstuystrong.com/2026-07-31-summer-party-rename/#bssc" target="_blank" style="color: #ffffff">We are now Bed-Stuy Survival Collective.</a>
+          <p>
+        </mj-text>
+        <mj-image
+          align="center"
+          alt="Bed-Stuy Strong is now... Bed-Stuy Survival Collective (followed by a collage of photos from our events and our reading group titles)"
+          border="none"
+          padding="0px 0px 0px 0px"
+          src="bssc.png"
+          title=""
+          href="https://newsletter.bedstuystrong.com/2026-07-31-summer-party-rename/#bssc"
+          target="_blank"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="36px 24px 12px 24px"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 10px 0px 10px"
+        >
+          <h2
+            class="text-content text-content-dark"
+            style="font-size: 22px; margin-top: 0; margin-bottom: 16px;"
+          >
+            The Bed-Stuy Survival Collective Reading Group is excited to announce our next book!
+          </h2>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            This fall, we’ll be reading <a href="https://bookshop.org/a/22529/9781642592696" target="_blank" style="color: #429233">
+            Border and Rule: Global Migration, Capitalism, and the Rise of Racist Nationalism</a> by 
+            immigrant rights organizer and anti-capitalist activist Harsha Walia.
+            </p>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            One of the central tenets of Donald Trump’s political ideology has been his anti-immigration stance, which is largely predicated on stereotypes and outright falsehoods regarding the U.S.’s immigrant population.
+            </p>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            In Border and Rule, Walia dismisses the dominant narrative of a “border crisis” and instead asserts that border regimes subject migrants and refugees to displacement, criminalization, and exploitation to impede the formation of an international working class consciousness while expanding a far-right, nationalist, ruling-class empire.
+            </p>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 8px">
+            As ICE actively terrorizes our neighbors, citizens and undocumented immigrants alike, it’s crucial for us to dismantle the propaganda that keeps us from effectively organizing against far-right forces that know we’re weaker separated than united.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="0 24px 24px 24px"
+      direction="rtl"
+    >
+      <mj-column>
+        <mj-image
+          align="center"
+          alt=""
+          border="none"
+          padding="0px 0px 16px 0px"
+          src="border_and_rule.png"
+          title=""
+          href="https://docs.google.com/document/d/19QZAP2amrJECl_I2GMHzux05LMmYQPctj8q9LxUk1eA/edit?usp=sharing"
+          target="_blank"
+        />
+      </mj-column>
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="8px 24px 0px 10px"
+        >
+          <p class="text-content text-content-dark" style="margin-top: 0; margin-bottom: 16px">
+            Our first session will take place on Monday, November 2 from 7:00 pm – 8:30 pm. We’ll be reading the 
+            forward and the introduction.
+          </p>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            <a href="https://docs.google.com/document/d/19QZAP2amrJECl_I2GMHzux05LMmYQPctj8q9LxUk1eA/edit?usp=sharing" target="_blank" style="color: #429233">
+            Reading materials + Zoom link can be found here</a>. Reach out with questions at 
+            <a href="mailto:bssreadinggroup@gmail.com" target="_blank" style="color: #429233">bssreadinggroup@gmail.com</a>. 
+          </p>
+          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
+            We look forward to reading with you!  
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section 
+      background-color="#dddddd"
+      padding="20px 30px 20px 30px"
+    >
+      <mj-group vertical-align="middle">
+        <mj-column vertical-align="middle" width="33%">
+          <mj-text
+            css-class="text-content text-content-dark"
+            font-family="Helvetica, Arial, sans-serif"
+            padding="0px 10px 0px 10px"
+          >
+            <p
+              class="text-content text-content-light"
+              style="
+                color: #3b3e40;
+                text-align: left;
+                margin: 10px 0;
+              "
+            >
+              <b>Keep in touch</b>
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="67%">
+          <mj-include path="../../includes/social.mjml" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-include path="../../includes/footer.mjml" />
+  </mj-body>
+</mjml>

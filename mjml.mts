@@ -16,6 +16,7 @@ const eta = new Eta();
 
 export const makeOptions = (
   filePath?: string,
+  includePath?: string,
   data?: Partial<TemplateData>
 ) => ({
   // rawMJML is the raw MJML XML, as saved in the .mjml files
@@ -24,6 +25,8 @@ export const makeOptions = (
     (rawMJML) => eta.renderString(rawMJML, { ...defaultData, ...data }),
   ],
   packages: [],
+  ignoreIncludes: false,
+  includePath,
   filePath,
 });
 
