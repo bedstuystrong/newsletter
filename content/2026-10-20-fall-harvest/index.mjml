@@ -301,7 +301,7 @@
             class="text-content text-content-light"
             style="margin-top: 30px; margin-bottom: 10px"
           >
-          2. Consider <b>purchasing your next</b> read through <a href="http://bookshop.org/shop/bssreads" target="_blank" style="color: #ffffff">Bed-Stuy Survival Collective's affiliate link with Bookshop.org</a>. 
+          2. Consider <b>purchasing your next read</b> through <a href="http://bookshop.org/shop/bssreads" target="_blank" style="color: #ffffff">Bed-Stuy Survival Collective's affiliate link with Bookshop.org</a>. 
           </p>
           <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px"> 
             ANY book you purchase after following this link will benefit our reading group's bookshare fund (10% of the purchase to us!), which we use to purchase books to redistribute in our Free Store at the Fall Harvest.
@@ -424,9 +424,6 @@
       padding="18px 0px 0px 0px"
     >
       <mj-column>
-        <mj-raw> 
-          <div id="bssc"></div>
-        </mj-raw>
         <mj-text
           font-family="Helvetica, Arial, sans-serif"
           padding-bottom="0px"
