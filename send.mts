@@ -17,6 +17,14 @@ const { values, positionals } = parseArgs({
       type: "boolean",
       short: "t",
     },
+    dry: {
+      type: "boolean",
+    },
+    // file should be emails separated by newlines
+    exclude: {
+      type: "string",
+      short: "e",
+    },
   },
   allowPositionals: true,
 });
@@ -26,6 +34,16 @@ if (!emailName) throw new Error("Email name required");
 if (values.test) {
   console.log("Test mode, disabling full send");
 }
+
+if (values.dry) {
+  console.log("Dry run, emulating full send");
+}
+
+if (values.exclude) {
+  console.log(`Excluding emails from ${values.exclude}`);
+}
+const excludeFile = values.exclude ? await fs.readFile(values.exclude, {encoding: "utf-8"}) : "";
+const excludes = excludeFile.split("\n")
 
 try {
   await fs.access(path.resolve("content", emailName));
@@ -110,7 +128,7 @@ if (values.test) {
   process.exit();
 }
 
-if (await confirm({ message: "Send real email?" })) {
+if (await confirm({ message: `Send real email?${values.dry ? " (dry run)" : ""}` })) {
   console.log("Fetching contact list...");
   const contactsTable = new AirtableBase("emails").table("contacts");
   const contacts = (
@@ -120,17 +138,22 @@ if (await confirm({ message: "Send real email?" })) {
         fields: ["email"],
       })
       .all()
-  ).map((record) => contactsTable.normalize(record).email);
+  ).map((record) => contactsTable.normalize(record).email)
   // const contacts: string[] = JSON.parse(
-  //   await fs.readFile("spam-resend-2026-08-03.json", { encoding: "utf-8" }),
+  //   await fs.readFile("spam-resend-2026-10-20.json", { encoding: "utf-8" }),
   // );
 
   console.log(`Found ${contacts.length} contacts`);
+  if (values.exclude) {
+    console.log(`Excluding ${excludes.length} contacts`)
+  }
 
-  const messages = contacts.map((toEmail) => createMessage(toEmail));
+  const messages = contacts
+    .filter((toEmail) => !excludes.includes(toEmail))
+    .map((toEmail) => createMessage(toEmail));
 
-  const chunkSize = 200;
-  const intervalMinutes = 2;
+  const chunkSize = 50;
+  const intervalMinutes = 1;
   const throttle = throttledQueue({
     maxPerInterval: 1,
     interval: minutes(intervalMinutes),
@@ -154,8 +177,12 @@ if (await confirm({ message: "Send real email?" })) {
     chunks.map((chunk, index) =>
       throttle(() => {
         console.log(`Sending chunk ${index}/${chunks.length}`);
-        console.log(chunk.map((message) => message.To).slice(0, 2));
-        return postmarkClient.sendEmailBatch(chunk);
+        console.log(chunk.map((message) => message.To).slice(0, 3));
+        if (values.dry) {
+          return true;
+        } else {
+          return postmarkClient.sendEmailBatch(chunk);
+        }
       }),
     ),
   );
@@ -169,8 +196,4 @@ if (await confirm({ message: "Send real email?" })) {
       encoding: "utf-8",
     },
   );
-}
-
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
 }
