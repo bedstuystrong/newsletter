@@ -1,7 +1,7 @@
 <mjml dir="ltr" lang="en" owa="desktop" version="4.14.1">
   <!-- Based on Mailjet's "New Year Newsletter" template -->
   <mj-head>
-    <mj-title>you’re invited: fall harvest food distro & coat collection /mj-title>
+    <mj-title>you’re invited: fall harvest food distro & coat collection</mj-title>
     <mj-preview>fall harvest announcement + fundraising update</mj-preview>
     <mj-style inline="inline">
       a {
