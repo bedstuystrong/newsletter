@@ -87,7 +87,7 @@
             alt="Bed-Stuy Survival Collective logo"
             border="none"
             padding="0px 0px 0px 0px"
-            src="<%= it.static_url %>/bssc_logo_black.png"
+            src="<%= it.static_url %>/bssc_logo_white.png"
             target="_blank"
             width="150px"
             title=""
@@ -472,11 +472,11 @@
             2 pm until supplies run out  <br />
             Herbert Von King Park (Marcy / Greene Ave)
           </p>
-          <p class="text-content text-content-dark" style="text-align: center; margin-top: 16px; margin-bottom: 16px">
-            masks required and provided. <br /> extra seating available by asking a BSSC organizer.
+          <p class="text-content text-content-dark" style="text-align: center; margin-top: 16px; margin-bottom: 16px; margin-left: 36px; margin-right: 36px">
+            masks required and provided. extra seating available by asking a BSSC organizer.
           </p>
-          <p class="text-content text-content-dark" style="text-align: center; margin-top: 16px; margin-bottom: 16px">
-            for questions, reply to this email or ask in the <br /> #fallharvest channel on Slack
+          <p class="text-content text-content-dark" style="text-align: center; margin-top: 16px; margin-bottom: 16px; margin-left: 36px; margin-right: 36px">
+            for questions, reply to this email or ask in the #fallharvest channel on Slack
           </p>
         </mj-text>
       </mj-column>
