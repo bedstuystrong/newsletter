@@ -2,7 +2,7 @@
   <!-- Based on Mailjet's "New Year Newsletter" template -->
   <mj-head>
     <mj-title>you’re invited: fall harvest food distro & coat collection</mj-title>
-    <mj-preview>fall harvest announcement + fundraising update</mj-preview>
+    <mj-preview>event details + fundraising update</mj-preview>
     <mj-style inline="inline">
       a {
         text-decoration: underline;
@@ -76,23 +76,24 @@
       </mj-column>
     </mj-section>
     <mj-section
-      background-color="#ffffff"
-      padding="36px 24px 6px 18px"
+      background-color="#736f8f"
+      padding="12px 24px 6px 18px"
       text-align="center"
     >
       <mj-group vertical-align="top">
-        <mj-column width="35%" vertical-align="middle">
+        <mj-column width="50%" vertical-align="middle">
           <mj-image
             align="left"
             alt="Bed-Stuy Survival Collective logo"
             border="none"
             padding="0px 0px 0px 0px"
-            src="<%= it.static_url %>/bssc_logo.png"
+            src="<%= it.static_url %>/bssc_logo_black.png"
             target="_blank"
+            width="150px"
             title=""
           />
         </mj-column>
-        <mj-column width="65%" vertical-align="top">
+        <mj-column width="50%" vertical-align="top">
           <mj-spacer height="50px" />
         </mj-column>
       </mj-group>
@@ -124,7 +125,7 @@
         >
           <h2
             class="text-content text-content-dark"
-            style="font-size: 22px; margin-top: 16px; margin-bottom: 16px"
+            style="font-size: 22px; margin-top: 16px; margin-bottom: 16px; line-height: 1.2"
           >
             You’re invited to Bed-Stuy Survival Collective’s Fall Harvest grocery distribution and coat collection! 🍂
           </h2>
@@ -139,26 +140,6 @@
             style="margin-top: 16px; margin-bottom: 16px"
           >
             BSSC will be at the Marcy / Greene Ave corner inside the park with turkeys & fresh produce, COVID-19 test kits, queer books for all ages from <a href="https://instagram.com/nonbinarianbike" target="_blank" >@nonbinarianbike</a>, and a free store with hygiene and baby essentials. Free to all while supplies last! Stop by and hangout – we’ll be kicking it back with free hot food, cider, political education literature & zines, and information on Bed-Stuy Survival Collective’s work.
-          </p>
-          <p
-            class="text-content text-content-dark"
-            style="margin-top: 16px; margin-bottom: 16px"
-          >
-            If you would like to support this free event for all, consider donating to help us purchase grocery items in partnership with the Brooklyn Packers today! $40 covers one large turkey, $60 covers a turkey and sides, but any amount at all is welcome. 
-          </p>
-          <p
-            class="text-content text-content-dark text-content-bold"
-            style="margin-top: 16px; margin-bottom: 16px"
-          >
-            Venmo:  <a href="https://account.venmo.com/u/bedstuystrong" 
-            target="_blank">@bedstuystrong</a>
-            <br>
-            Cashapp: <a href="https://cash.app/$bedstuystrong" 
-            target="_blank">$bedstuystrong</a>
-            <br>
-            Zelle: fund<span>@</span>bedstuystrong<span>.</span>com
-            <br>
-            mention “fall harvest” in the note
           </p>
         </mj-text>
       </mj-column>
@@ -181,6 +162,34 @@
         ></mj-image>
       </mj-column>
     </mj-section>
+    <mj-section background-color="#d9bc76" padding="4px 24px 0px 24px">
+      <mj-column>
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 12px 4px 12px"
+        >
+          <p
+            class="text-content text-content-dark text-content-bold"
+            style="margin-top: 16px; margin-bottom: 8px; color: #111111; text-align: center"
+          >
+            Venmo:  <a href="https://account.venmo.com/u/bedstuystrong" 
+            target="_blank" style="color: #111111">@bedstuystrong</a>
+            <br>
+            Cashapp: <a href="https://cash.app/$bedstuystrong" 
+            target="_blank" style="color: #111111">$bedstuystrong</a>
+            <br>
+            Zelle: fund<span>@</span>bedstuystrong<span>.</span>com
+          </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 8px; margin-bottom: 16px; color: #111111; text-align: center"
+          >
+            mention “fall harvest” in the note
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
     <mj-section background-color="#ffffff" padding="16px 24px 0px 24px">
       <mj-column>
         <mj-text
@@ -192,44 +201,50 @@
             class="text-content text-content-dark"
             style="margin-top: 16px; margin-bottom: 16px"
           >
-            We are halfway to our goal. Help us feed at least 75 more individuals! 
+            If you would like to support this free event for all, consider donating to help us purchase grocery items in 
+            partnership with the Brooklyn Packers! $40 covers one large turkey, $60 covers a turkey and sides, but any 
+            amount at all is welcome.
           </p>
           <p
             class="text-content text-content-dark"
             style="margin-top: 16px; margin-bottom: 16px"
           >
-            We will ALSO be collecting winter jackets + coats during the Harvest. Donate gently used winter gear (gloves, hats, scarves) and coats from 2 – 3:30 pm, or stop by after 2 pm to pick up a coat for yourself. 
+            <b>We’re halfway to our goal.</b> Help us get food on at least 75 more tables by donating and sharing with your networks!
           </p>
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section
-      padding="0px 0px 0px 0px"
+      background-color="#ffffff"
+      padding="12px 0px 36px 0px"
       text-align="center"
     >
-      <mj-column>
+      <mj-column width="45%" vertical-align="middle">
         <mj-image
           align="center"
           alt=""
           border="none"
           padding="0px 0px 0px 0px"
-          max-height="80%"
-          src="coat_drive_1.jpg"
+          src="coat_drive.png"
           target="_blank"
           title=""
         ></mj-image>
       </mj-column>
-      <mj-column>
-        <mj-image
-          align="center"
-          alt=""
-          border="none"
-          padding="0px 0px 0px 0px"
-          max-height="80%"
-          src="coat_drive_2.jpg"
-          target="_blank"
-          title=""
-        ></mj-image>
+      <mj-column padding="16px 24px 16px 24px" width="55%" vertical-align="middle">
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 12px 8px 12px"
+        >
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            <b>We will also be collecting winter jackets and coats</b> during the Fall Harvest. Donate gently 
+            used winter gear (gloves, hats, scarves) and coats from 2 to 3:30 pm, or stop by after 
+            2 pm to pick up a coat for yourself. 
+          </p>
+        </mj-text>
       </mj-column>
     </mj-section>
     <mj-section 
@@ -238,6 +253,19 @@
       text-align="center"
     >
       <mj-column border="6px dashed #d9bc76">
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          align="center"
+          padding="0"
+        >
+          <p
+            class="text-content text-content-dark text-content-bold"
+            style="margin-top: 20px; margin-bottom: 8px"
+          >
+            We need volunteers, including drivers!
+          </p>
+        </mj-text>
         <mj-button 
           background-color="#d9bc76" 
           color="#000000"
@@ -254,11 +282,12 @@
           align="center"
           padding="0"
         >
-          <h2
-            class="text-content text-content-dark text-content-italic"
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 8px; margin-bottom: 20px"
           >
-            we need volunteers, including drivers! please consider signing up - so excited to see you there.
-          </h2>
+            So excited to see you there 🧡
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -278,19 +307,11 @@
         >
           <h3
             class="text-content text-content-light"
-            style="font-size: 18px; text-align: center; margin-top: 16px; margin-bottom: 24px"
+            style="font-size: 18px; text-align: center; margin-top: 16px; margin-bottom: 16px"
           >
             There are a few other ways you can support this year’s Fall Harvest ✨
           </h3>
         </mj-text>
-      </mj-column>
-    </mj-section>
-     <mj-section
-      background-color="#6a5885"
-      full-width="full-width"
-      padding="24px 36px 0px 36px"
-    >
-      <mj-column>
         <mj-text
           font-family="Helvetica, Arial, sans-serif"
           padding-bottom="0px"
@@ -301,7 +322,7 @@
         >
           <p
             class="text-content text-content-light"
-            style="margin-top: 30px; margin-bottom: 10px"
+            style="margin-top: 36px; margin-bottom: 10px"
           >
             <b>Donate baby essentials</b> to be included in our free store. We are collecting baby diapers (any size), wipes, and formula (the most requested kind is Enfamil NeuroPro Baby Formula). 
           </p>
@@ -322,41 +343,56 @@
             </ol>
           </p>
           <p class="text-content text-content-light">
-            👉 <em>One day only</em>, drop off items: Sunday, November 8th at 1320 Fulton Street from 12 - 4 pm, directly with BSSC organizers. 
+            👉 <em>One day only</em>, drop off items: Sunday, November 8th at 1320 Fulton Street from 12 to 4 pm, directly with BSSC organizers. 
           </p>
         </mj-text>
       </mj-column>
-      <mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#6a5885"
+      full-width="full-width"
+      padding="36px 10px 12px 10px"
+    >
+      <mj-column vertical-align="middle" width="60%">
         <mj-text
           font-family="Helvetica, Arial, sans-serif"
           padding-bottom="0px"
-          padding-left="10px"
-          padding-right="10px"
+          padding-left="30px"
+          padding-right="30px"
           padding-top="0px"
-          padding="0px 10px 0px 10px"
+          padding="24px 36px 0px 36px"
         >
           <p
             class="text-content text-content-light"
-            style="margin-top: 30px; margin-bottom: 10px"
+            style="margin-top: 16px; margin-bottom: 16px;"
           >
-          Consider <b>purchasing your next read</b> through <a href="https://bookshop.org/shop/bssreads" target="_blank" style="color: #ffffff">Bed-Stuy Survival Collective's affiliate link with Bookshop.org</a>. 
+          Consider <b>purchasing your next read</b> (like for our <a href="https://docs.google.com/document/d/19QZAP2amrJECl_I2GMHzux05LMmYQPctj8q9LxUk1eA/edit?tab=t.378i3q7nyuxp" target="_blank" style="color: #ffffff">reading group</a>) 
+          through <a href="https://bookshop.org/shop/bsscreads" target="_blank" style="color: #ffffff">
+          Bed-Stuy Survival Collective's affiliate link with Bookshop.org</a>. 
           </p>
           <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px"> 
             ANY book you purchase after following this link will benefit our reading group's bookshare fund (10% of the purchase to us!), which we use to purchase books to redistribute in our Free Store at the Fall Harvest.
           </p>
         </mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle" width="40%">
         <mj-image
           align="center"
-          alt=""
+          alt="read with us! (cover of Border and Rule by Harsha Walia) every other Monday starting November 2nd, 7 - 8:30 pm over Zoom. purchase your copy of Border and Rule today! bookshop.org/shop/bsscreads"
           border="none"
           padding="0px 0px 0px 0px"
-          max-height="80%"
           src="bssc_reads.png"
+          href="https://bookshop.org/shop/bsscreads"
           target="_blank"
           title=""
         ></mj-image>
-
       </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#6a5885"
+      full-width="full-width"
+      padding="0px 36px 0px 36px"
+    >
       <mj-column>
         <mj-text
           font-family="Helvetica, Arial, sans-serif"
@@ -367,12 +403,54 @@
           padding="0px 10px 0px 10px"
         >
           <p
-            class="text-content text-content-light"
-            style="margin-top: 30px; margin-bottom: 10px"
+            class="text-content text-content-light text-content-bold"
+            style="margin-top: 36px; margin-bottom: 10px"
           >
-          <b>Organize a mini-fundraiser for us!</b>
+            Organize a mini-fundraiser for us!
           </p>
-          <p class="text-content text-content-light" style="margin-top: 16px; margin-bottom: 16px"> 
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#6a5885"
+      full-width="full-width"
+      padding="16px 0px 0px 0px"
+    >
+      <mj-column>
+        <mj-image
+          align="center"
+          alt="3 fall leaf shapes with text. 1. time to declutter? raffle off a unique item! 2. host a party and donate ticket sales 3. organize a bake sale or lemonade stand on your block"
+          border="none"
+          padding="0px 0px 0px 0px"
+          src="../2026-10-20-fall-harvest/fundraiser_ideas.png"
+          target="_blank"
+          title=""
+        />
+        <mj-text>
+          <p
+            class="text-content text-content-light"
+            style="text-align: right; font-size: 13px; opacity: 0.6; margin-top: 0; margin-bottom: 16px"
+          >
+            leaf illustrations by <a href="https://www.magnific.com/free-vector/flat-design-autumn-leaves-set_9241081.htm#fromView=search&page=2&position=14&uuid=a21e8343-d311-4b6d-aa44-25fec60ca533&track=ais_hybrid&query=fall+leaves" target="_blank" style="color: #ffffff">magnific</a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#6a5885"
+      full-width="full-width"
+      padding="0px 36px 24px 36px"
+    >
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding-bottom="0px"
+          padding-left="10px"
+          padding-right="10px"
+          padding-top="0px"
+          padding="0px 10px 0px 10px"
+        >
+          <p class="text-content text-content-light" style="margin-top: 0; margin-bottom: 16px"> 
             There’s a lot of ways to help us raise funds – in the past we’ve received donations from raffles, bake sales, event tickets, and clothing stoop sales. Pick something that’s special to you or just use the resources you’ve got. You can ask people to pay us directly or collect the funds yourself and send them to us if that’s easier. Let us know what you’re planning and we can share it on our social media!
           </p>
         </mj-text>
@@ -381,32 +459,31 @@
 
     <mj-section
       background-color="#ffffff"
-      padding="36px 24px 12px 24px"
+      padding="12px 24px 12px 24px"
     >
       <mj-column>
         <mj-text
           font-family="Helvetica, Arial, sans-serif"
           padding="0px 10px 0px 10px"
         >
-          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
-            Fifth Annual BSSC Fall Harvest <br />
-            Sunday, November 22nd, 2026.  <br />
+          <p class="text-content text-content-dark" style="text-align: center; margin-top: 16px; margin-bottom: 16px">
+            <b>Fifth Annual BSSC Fall Harvest</b> <br />
+            Sunday, November 22nd, 2026  <br />
             2 pm until supplies run out  <br />
             Herbert Von King Park (Marcy / Greene Ave)
           </p>
-          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
-            masks required, PPE will be provided. extra seating available by asking a BSSC organizer.
+          <p class="text-content text-content-dark" style="text-align: center; margin-top: 16px; margin-bottom: 16px">
+            masks required and provided. <br /> extra seating available by asking a BSSC organizer.
           </p>
-          <p class="text-content text-content-dark" style="margin-top: 16px; margin-bottom: 16px">
-            questions  reply to this email or let us know in the #fallharvest channel on Slack
+          <p class="text-content text-content-dark" style="text-align: center; margin-top: 16px; margin-bottom: 16px">
+            for questions, reply to this email or ask in the <br /> #fallharvest channel on Slack
           </p>
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section
-      background-color="#09346e"
-      full-width="full-width"
-      padding="18px 0px 0px 0px"
+      background-color="#083c7f"
+      padding="0px 0px 0px 0px"
     >
       <mj-column>
         <mj-text
@@ -419,7 +496,7 @@
         >
           <p
             class="text-content text-content-light"
-            style="text-align: center; margin-top: 30px; margin-bottom: 20px"
+            style="text-align: center; margin-top: 24px; margin-bottom: 24px"
           >
             ICYMI: Bed-Stuy Strong changed our name. <br /> 
             <a href="https://newsletter.bedstuystrong.com/2026-07-31-summer-party-rename/#bssc" target="_blank" style="color: #ffffff">We are now Bed-Stuy Survival Collective.</a>
