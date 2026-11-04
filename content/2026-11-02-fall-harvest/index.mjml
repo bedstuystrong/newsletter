@@ -105,12 +105,12 @@
       <mj-column>
         <mj-image
           align="center"
-          alt="flyer greyish purple background with burnt orange text stating FALL HARVEST. under is the text in black NOVEMBER 22, 2026 2PM-4PM HERBERT VON KING PARK (MARCY & GREENE). a rendering of squash with text FREE TURKEYS, GROCERIES, COAT COLLECTION, BABY ESSENTIALS + MORE MASKS REQUIRED & PROVIDED Bed Stuy Survival Collective logo"
+          alt="flyer greyish purple background with burnt orange text stating FALL HARVEST. under is the text in black NOVEMBER 22, 2026 2PM-4PM HERBERT VON KING PARK (MARCY & GREENE). a rendering of squash with text FREE TURKEYS, GROCERIES, COAT COLLECTION, BABY ESSENTIALS + MORE MASKS REQUIRED & PROVIDED"
           border="none"
           padding="0px 0px 0px 0px"
           max-height="80%"
           src="fall_harvest_graphic.png"
-          href="https://www.instagram.com/p/"
+          href=""
           target="_blank"
           title=""
         ></mj-image>
@@ -222,7 +222,7 @@
       <mj-column width="45%" vertical-align="middle">
         <mj-image
           align="center"
-          alt=""
+          alt="photos of our previous coat drives, including a hand drawn sign and a person browsing the coat rack"
           border="none"
           padding="0px 0px 0px 0px"
           src="coat_drive.png"
