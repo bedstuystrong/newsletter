@@ -1,0 +1,235 @@
+<mjml dir="ltr" lang="en" owa="desktop" version="4.14.1">
+  <!-- Based on Mailjet's "New Year Newsletter" template -->
+  <mj-head>
+    <mj-title>🌧️ RESCHEDULED for monday: fall harvest food distro</mj-title>
+    <mj-preview>event details + fundraising update</mj-preview>
+    <mj-style inline="inline">
+      a {
+        text-decoration: underline;
+      } 
+      .text-content { 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 16px; 
+        line-height: 1.5; 
+      }
+      .text-content-bold {
+        font-weight: bold;
+      }
+      .text-content-italic {
+        font-style: italic;
+      }
+      .text-content-dark {
+        color: #3b3e40;
+      } 
+      .text-content-light {
+        color: #ffffff;
+      }
+      a {
+        color: #429233;
+      }
+    </mj-style>
+    <mj-raw>
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" content="light dark" />
+      <style type="text/css">
+        :root {
+          color-scheme: light dark;
+          supported-color-schemes: light dark;
+        }
+      </style>
+    </mj-raw>
+  </mj-head>
+  <mj-body background-color="#F2F2F2">
+    <mj-section padding="0px 0px 0px 0px" text-align="center">
+      <mj-column>
+        <mj-text
+          font-family="Helvetica, Arial, sans-serif"
+          padding="4px 10px 4px 10px"
+        >
+          <p style="text-align: center; margin: 10px 0">
+            <span
+              style="
+                line-height: 23px;
+                letter-spacing: normal;
+                font-size: 14px;
+                color: #3b3e40;
+                text-align: left;
+                font-family: Arial;
+              "
+              >November 2026 &nbsp;|&nbsp;
+            </span>
+            <a href="<%= it.permalink %>" target="_blank">
+              <span
+                style="
+                  line-height: 23px;
+                  letter-spacing: normal;
+                  font-size: 14px;
+                  color: #626DCB;
+                  font-family: Arial;
+                "
+              >
+                <b><u>View in your browser</u></b>
+              </span>
+            </a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#736f8f"
+      padding="12px 24px 6px 18px"
+      text-align="center"
+    >
+      <mj-group vertical-align="top">
+        <mj-column width="50%" vertical-align="middle">
+          <mj-image
+            align="left"
+            alt="Bed-Stuy Survival Collective logo"
+            border="none"
+            padding="0px 0px 0px 0px"
+            src="<%= it.static_url %>/bssc_logo_white.png"
+            target="_blank"
+            width="150px"
+            title=""
+          />
+        </mj-column>
+        <mj-column width="50%" vertical-align="top">
+          <mj-spacer height="50px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section background-color="#736f8f" padding="0px 24px 0px 24px">
+      <mj-column>
+        <mj-text
+          css-class="text-content text-content-light"
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 12px 8px 12px"
+        >
+          <h2
+            class="text-content text-content-light"
+            style="font-size: 24px; margin-top: 8px; margin-bottom: 16px; text-align: center"
+          >
+            fall harvest rescheduled 🌧️
+          </h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      padding="0px 0px 0px 0px"
+      text-align="center"
+    >
+      <mj-column>
+        <mj-image
+          align="center"
+          alt="greyish purple background with a digital painting of various squash"
+          border="none"
+          padding="0px 0px 0px 0px"
+          max-height="80%"
+          src="squash.png"
+          href=""
+          target="_blank"
+          title=""
+        ></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="16px 24px 0px 24px">
+      <mj-column>
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 12px 8px 12px"
+        >
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            due to heavy rain and risk of flooding tomorrow, Sunday, November 22, we are going to reschedule our 
+            Fall Harvest Food Distro & Coat Collection. we’re switching things up and scheduling two separate events to 
+            redistribute all of the resources we’ve gathered.
+          </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            <strong>🥕 Grocery & Turkey Distro: Monday, November 23rd at 3:30 pm</strong><br />
+            Stop by Herbert Von King Park (Marcy and Greene Ave corner) for free turkeys & fresh produce from 3:30 pm until 
+            supplies run out. Masks required & provided. 🤝
+          </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            <strong>🧤 Free Store & Coat Collection: new date TBA</strong><br />
+            We will have COVID-19 test kits & PPE, queer books for all from <a href="https://thenonbinarian.gay/" target="_blank" style="color: #429233">The Nonbinarian Book Bike</a>, 
+            a free store with hygiene and baby essentials, and hot food. We will also collect & distribute winter 
+            gear (gloves, hats, scarves)  and coats - donate gently used items or stop by to pick up a coat for yourself. 
+            <strong>More info coming soon.</strong>
+          </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 16px; margin-bottom: 16px"
+          >
+            if you have any questions, reply to this email or ask in the #fallharvest channel on Slack.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#d9bc76" padding="4px 24px 0px 24px">
+      <mj-column>
+        <mj-text
+          css-class="text-content text-content-dark"
+          font-family="Helvetica, Arial, sans-serif"
+          padding="0px 12px 4px 12px"
+        >
+          <p
+            class="text-content text-content-dark text-content-bold"
+            style="margin-top: 16px; margin-bottom: 8px; color: #111111; text-align: center"
+          >
+            Venmo:  <a href="https://account.venmo.com/u/bedstuystrong" 
+            target="_blank" style="color: #111111">@bedstuystrong</a>
+            <br>
+            Cashapp: <a href="https://cash.app/$bedstuystrong" 
+            target="_blank" style="color: #111111">$bedstuystrong</a>
+            <br>
+            Zelle: fund<span>@</span>bedstuystrong<span>.</span>com
+          </p>
+          <p
+            class="text-content text-content-dark"
+            style="margin-top: 8px; margin-bottom: 16px; color: #111111; text-align: center"
+          >
+            mention “fall harvest” in the note
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section 
+      background-color="#dddddd"
+      padding="20px 30px 20px 30px"
+    >
+      <mj-group vertical-align="middle">
+        <mj-column vertical-align="middle" width="33%">
+          <mj-text
+            css-class="text-content text-content-dark"
+            font-family="Helvetica, Arial, sans-serif"
+            padding="0px 10px 0px 10px"
+          >
+            <p
+              class="text-content text-content-light"
+              style="
+                color: #3b3e40;
+                text-align: left;
+                margin: 10px 0;
+              "
+            >
+              <b>Keep in touch</b>
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="67%">
+          <mj-include path="../../includes/social.mjml" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-include path="../../includes/footer.mjml" />
+  </mj-body>
+</mjml>
